@@ -51,12 +51,9 @@ export default function Index() {
           <div className="flex items-center justify-between">
             <div>
               <h1 className="text-2xl font-bold text-slate-900 flex items-center gap-2">
-                <img src="/your-logo-image.png" alt="Logo" className="h-8 w-8 mr-2" />
+                <img src="/your-logo-image.png" alt="Logo" className="h-10 w-10 mr-2" />
                 WebDirectory
               </h1>
-              <p className="text-sm text-slate-600">
-                Répertoire professionnel de sites web
-              </p>
             </div>
             <div className="flex items-center gap-2">
               <Button
