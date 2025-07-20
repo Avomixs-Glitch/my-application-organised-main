@@ -52,7 +52,7 @@ export default function Index() {
             <div>
               <h1 className="text-2xl font-bold text-slate-900 flex items-center gap-2">
                 <img src="/your-logo-image.png" alt="Logo" className="h-10 w-10 mr-2" />
-                WebDirectory
+                Open-WepApp
               </h1>
             </div>
             <div className="flex items-center gap-2">
