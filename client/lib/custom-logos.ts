@@ -111,6 +111,7 @@ export const customLogos: Record<string, string> = {
   "nuget.org": "https://nuget.org/favicon.ico",
   "mixamo.com": "https://logo.clearbit.com/https://www.mixamo.com/",
   "grok.x.ai": "https://x.ai/favicon.ico",
+  "custom-image-logo": "/public/your-logo-image.png",
   
   "slack.com": "https://slack.com/favicon.ico",
   "gitlab.com": "https://logo.clearbit.com/about.gitlab.com/",
