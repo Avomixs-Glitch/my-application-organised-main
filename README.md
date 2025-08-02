@@ -27,4 +27,10 @@ WebDirectory est une application web moderne qui permet de découvrir, organiser
 - **Communauté** : Rejoignez les discussions autour du projet
 
 ## 📄 Licence
+<<<<<<< HEAD
 Ce projet est open source sous licence MIT.
+=======
+Ce projet est open source sous licence MIT.
+>>>>>>> 8f5c4cc09027b310d9937786677a5a3f7f4846ad
+
+
