@@ -11,7 +11,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { WebsiteLogo, WebsiteLogoSmall } from "@/components/ui/website-logo\";-logo\";o\";e-logo\";logo\";ents/ui/website-logo";
+import { WebsiteLogo, WebsiteLogoSmall } from "@/components/ui/website-logo";
 import {
   categories,
   websites,
@@ -39,22 +39,35 @@ export default function Index() {
   const featuredWebsites = getFeaturedWebsites();
   const filteredWebsites = searchQuery
     ? searchWebsites(searchQuery)
-    : selectedCategory
-      ? getWebsitesByCategory(selectedCategory)
-      : websites;
+    : selectedCategory === "featured"
+      ? featuredWebsites
+      : selectedCategory
+        ? getWebsitesByCategory(selectedCategory)
+        : websites;
 
   const SidebarContent = () => (
     <div className="h-full flex flex-col bg-white border-r border-gray-200">
       {/* Sidebar Header */}
       <div className="p-6 border-b border-gray-200">
-        <div className="flex items-center gap-2">
-          <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-sm">OW</span>
+        <div className="flex items-center justify-between">
+          <div className="flex items-center gap-2">
+            <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+              <span className="text-white font-bold text-sm">OW</span>
+            </div>
+            <div>
+              <h2 className="font-bold text-gray-900">Open-WebApp</h2>
+              <p className="text-xs text-gray-500">Découvrez le web</p>
+            </div>
           </div>
-          <div>
-            <h2 className="font-bold text-gray-900">Open-WebApp</h2>
-            <p className="text-xs text-gray-500">Découvrez le web</p>
-          </div>
+          {/* Close button for mobile */}
+          <Button 
+            variant="ghost" 
+            size="sm" 
+            className="lg:hidden"
+            onClick={() => setSidebarOpen(false)}
+          >
+            <X className="h-5 w-5" />
+          </Button>
         </div>
       </div>
 
@@ -175,11 +188,17 @@ export default function Index() {
       </aside>
 
       {/* Mobile Sidebar */}
-      <Sheet open={sidebarOpen} onOpenChange={setSidebarOpen}>
-        <SheetContent side="left" className="p-0 w-80">
-          <SidebarContent />
-        </SheetContent>
-      </Sheet>
+      {sidebarOpen && (
+        <div className="fixed inset-0 z-50 lg:hidden">
+          <div 
+            className="fixed inset-0 bg-black/50" 
+            onClick={() => setSidebarOpen(false)}
+          />
+          <div className="fixed left-0 top-0 h-full w-80 bg-white shadow-xl">
+            <SidebarContent />
+          </div>
+        </div>
+      )}
 
       {/* Main Content */}
       <main className="flex-1 min-w-0">
@@ -189,13 +208,14 @@ export default function Index() {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4">
                 {/* Mobile Menu */}
-                <Sheet open={sidebarOpen} onOpenChange={setSidebarOpen}>
-                  <SheetTrigger asChild>
-                    <Button variant="ghost" size="sm" className="lg:hidden">
-                      <Menu className="h-5 w-5" />
-                    </Button>
-                  </SheetTrigger>
-                </Sheet>
+                <Button 
+                  variant="ghost" 
+                  size="sm" 
+                  className="lg:hidden"
+                  onClick={() => setSidebarOpen(true)}
+                >
+                  <Menu className="h-5 w-5" />
+                </Button>
 
                 {/* Page Title */}
                 <div>
