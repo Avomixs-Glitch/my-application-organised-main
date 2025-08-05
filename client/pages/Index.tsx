@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Search, ExternalLink, Star, Grid, List, Menu, X, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -11,8 +11,7 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { WebsiteLogo, WebsiteLogoSmall } from "@/components/ui/website-logo";
+import { WebsiteLogo, WebsiteLogoSmall } from "@/components/ui/website-logo\";-logo\";o\";e-logo\";logo\";ents/ui/website-logo";
 import {
   categories,
   websites,
