@@ -18,11 +18,11 @@ import {
   getFeaturedWebsites,
   searchWebsites,
   getWebsitesByCategory,
-} from "@/data/websites-extended\";-extended\";nded";
+} from "@/data/websites-extended";
 import { cn } from "@/lib/utils";
 
 const IconMap = {
-  Cloud: "☁️",
+  Cloud: "☁��",
   Brain: "🧠",
   Code: "💻",
   Palette: "🎨",
@@ -48,22 +48,22 @@ export default function Index() {
   const SidebarContent = () => (
     <div className="h-full flex flex-col bg-white border-r border-gray-200">
       {/* Sidebar Header */}
-      <div className="p-6 border-b border-gray-200">
+      <div className="p-6 border-b border-gray-200 flex-shrink-0">
         <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center shadow-lg">
               <span className="text-white font-bold text-sm">OW</span>
             </div>
             <div>
-              <h2 className="font-bold text-gray-900">Open-WebApp</h2>
-              <p className="text-xs text-gray-500">Découvrez le web</p>
+              <h2 className="font-bold text-gray-900 text-lg">Open-WebApp</h2>
+              <p className="text-xs text-gray-500">Plus de {websites.length} sites</p>
             </div>
           </div>
           {/* Close button for mobile */}
           <Button 
             variant="ghost" 
             size="sm" 
-            className="lg:hidden"
+            className="lg:hidden hover:bg-gray-100"
             onClick={() => setSidebarOpen(false)}
           >
             <X className="h-5 w-5" />
@@ -71,8 +71,8 @@ export default function Index() {
         </div>
       </div>
 
-      {/* Navigation */}
-      <nav className="flex-1 p-4 space-y-2">
+      {/* Navigation - Scrollable */}
+      <nav className="flex-1 overflow-y-auto p-4 space-y-3">
         {/* Tous les sites */}
         <button
           onClick={() => {
@@ -80,23 +80,29 @@ export default function Index() {
             setSidebarOpen(false);
           }}
           className={cn(
-            "w-full flex items-center gap-3 px-3 py-2.5 rounded-lg transition-all duration-200",
+            "w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 shadow-sm",
             !selectedCategory
-              ? "bg-blue-50 text-blue-700 border border-blue-200"
-              : "text-gray-700 hover:bg-gray-100"
+              ? "bg-gradient-to-r from-blue-50 to-indigo-50 text-blue-700 border-2 border-blue-200 shadow-md"
+              : "text-gray-700 hover:bg-gray-50 border border-gray-200"
           )}
         >
-          <span className="text-lg">🌐</span>
-          <span className="font-medium">Tous les sites</span>
-          <Badge variant="secondary" className="ml-auto text-xs">
+          <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center text-white">
+            🌐
+          </div>
+          <div className="flex-1 text-left">
+            <div className="font-semibold text-sm">Tous les sites</div>
+            <div className="text-xs text-gray-500">Collection complète</div>
+          </div>
+          <Badge variant="secondary" className="bg-white text-gray-700 border border-gray-300">
             {websites.length}
           </Badge>
         </button>
 
         {/* Sites vedettes */}
-        <div className="pt-4">
-          <h3 className="px-3 mb-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">
-            Sélection
+        <div className="pt-2">
+          <h3 className="px-4 mb-3 text-xs font-bold text-gray-500 uppercase tracking-wider flex items-center gap-2">
+            <Star className="h-3 w-3 text-yellow-500" />
+            Sélection Premium
           </h3>
           <button
             onClick={() => {
@@ -104,15 +110,20 @@ export default function Index() {
               setSidebarOpen(false);
             }}
             className={cn(
-              "w-full flex items-center gap-3 px-3 py-2.5 rounded-lg transition-all duration-200",
+              "w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 shadow-sm",
               selectedCategory === "featured"
-                ? "bg-yellow-50 text-yellow-700 border border-yellow-200"
-                : "text-gray-700 hover:bg-gray-100"
+                ? "bg-gradient-to-r from-yellow-50 to-amber-50 text-yellow-700 border-2 border-yellow-200 shadow-md"
+                : "text-gray-700 hover:bg-gray-50 border border-gray-200"
             )}
           >
-            <Star className="h-4 w-4 text-yellow-500" />
-            <span className="font-medium">Sites Vedettes</span>
-            <Badge variant="secondary" className="ml-auto text-xs">
+            <div className="w-8 h-8 bg-gradient-to-br from-yellow-500 to-amber-600 rounded-lg flex items-center justify-center text-white">
+              ⭐
+            </div>
+            <div className="flex-1 text-left">
+              <div className="font-semibold text-sm">Sites Vedettes</div>
+              <div className="text-xs text-gray-500">Nos recommandations</div>
+            </div>
+            <Badge variant="secondary" className="bg-white text-gray-700 border border-gray-300">
               {featuredWebsites.length}
             </Badge>
           </button>
@@ -120,10 +131,11 @@ export default function Index() {
 
         {/* Catégories */}
         <div className="pt-4">
-          <h3 className="px-3 mb-2 text-xs font-semibold text-gray-500 uppercase tracking-wider">
+          <h3 className="px-4 mb-3 text-xs font-bold text-gray-500 uppercase tracking-wider flex items-center gap-2">
+            <div className="w-3 h-3 bg-gradient-to-r from-blue-500 to-purple-600 rounded"></div>
             Catégories
           </h3>
-          <div className="space-y-1">
+          <div className="space-y-2">
             {categories.map((category) => {
               const categoryWebsites = getWebsitesByCategory(category.id);
               return (
@@ -134,29 +146,37 @@ export default function Index() {
                     setSidebarOpen(false);
                   }}
                   className={cn(
-                    "w-full flex items-center gap-3 px-3 py-2.5 rounded-lg transition-all duration-200 group",
+                    "w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 group shadow-sm",
                     selectedCategory === category.id
-                      ? "bg-blue-50 text-blue-700 border border-blue-200"
-                      : "text-gray-700 hover:bg-gray-50"
+                      ? "bg-gradient-to-r from-blue-50 to-indigo-50 text-blue-700 border-2 border-blue-200 shadow-md"
+                      : "text-gray-700 hover:bg-gray-50 border border-gray-200 hover:border-gray-300"
                   )}
                 >
                   <div
                     className={cn(
-                      "w-8 h-8 rounded-lg flex items-center justify-center text-sm",
+                      "w-10 h-10 rounded-xl flex items-center justify-center text-sm font-medium transition-all duration-200",
                       selectedCategory === category.id
-                        ? category.color + " text-white"
-                        : "bg-gray-100 group-hover:bg-gray-200"
+                        ? category.color + " text-white shadow-lg"
+                        : "bg-gray-100 group-hover:bg-gray-200 text-gray-600"
                     )}
                   >
                     {IconMap[category.icon as keyof typeof IconMap]}
                   </div>
-                  <div className="flex-1 text-left">
-                    <div className="font-medium text-sm">{category.name}</div>
+                  <div className="flex-1 text-left min-w-0">
+                    <div className="font-semibold text-sm truncate">{category.name}</div>
                     <div className="text-xs text-gray-500 truncate">
                       {category.description}
                     </div>
                   </div>
-                  <Badge variant="secondary" className="text-xs">
+                  <Badge 
+                    variant="secondary" 
+                    className={cn(
+                      "text-xs font-medium transition-colors",
+                      selectedCategory === category.id
+                        ? "bg-white text-blue-700 border border-blue-300"
+                        : "bg-white text-gray-700 border border-gray-300"
+                    )}
+                  >
                     {categoryWebsites.length}
                   </Badge>
                 </button>
@@ -167,14 +187,19 @@ export default function Index() {
       </nav>
 
       {/* Footer */}
-      <div className="p-4 border-t border-gray-200">
-        <div className="text-center">
-          <div className="text-xs text-gray-500">
-            {websites.length}+ sites référencés
+      <div className="p-4 border-t border-gray-200 bg-gray-50 flex-shrink-0">
+        <div className="text-center space-y-1">
+          <div className="flex items-center justify-center gap-4 text-xs">
+            <div className="flex items-center gap-1 text-blue-600">
+              <div className="w-2 h-2 bg-blue-500 rounded-full"></div>
+              <span className="font-medium">{websites.length}+ sites</span>
+            </div>
+            <div className="flex items-center gap-1 text-purple-600">
+              <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
+              <span className="font-medium">{categories.length} catégories</span>
+            </div>
           </div>
-          <div className="text-xs text-gray-400 mt-1">
-            {categories.length} catégories
-          </div>
+          <div className="text-xs text-gray-400">Mise à jour quotidienne</div>
         </div>
       </div>
     </div>
@@ -274,12 +299,12 @@ export default function Index() {
           {/* Category Header */}
           {selectedCategory && selectedCategory !== "featured" && (
             <div className="mb-8">
-              <div className="flex items-center gap-4 p-6 bg-white rounded-xl border border-gray-200">
+              <div className="flex items-center gap-4 p-6 bg-white rounded-xl border border-gray-200 shadow-sm">
                 {(() => {
                   const category = categories.find((c) => c.id === selectedCategory);
                   return category ? (
                     <>
-                      <div className={cn("p-3 rounded-xl text-white", category.color)}>
+                      <div className={cn("p-4 rounded-xl text-white shadow-lg", category.color)}>
                         <span className="text-2xl">
                           {IconMap[category.icon as keyof typeof IconMap]}
                         </span>
@@ -290,12 +315,32 @@ export default function Index() {
                         </h2>
                         <p className="text-gray-600">{category.description}</p>
                       </div>
-                      <Badge variant="outline" className="text-sm">
+                      <Badge variant="outline" className="text-sm font-medium px-3 py-1">
                         {getWebsitesByCategory(category.id).length} sites
                       </Badge>
                     </>
                   ) : null;
                 })()}
+              </div>
+            </div>
+          )}
+
+          {/* Featured Header */}
+          {selectedCategory === "featured" && (
+            <div className="mb-8">
+              <div className="flex items-center gap-4 p-6 bg-gradient-to-r from-yellow-50 to-amber-50 rounded-xl border-2 border-yellow-200 shadow-sm">
+                <div className="p-4 bg-gradient-to-br from-yellow-500 to-amber-600 rounded-xl text-white shadow-lg">
+                  <Star className="h-6 w-6" />
+                </div>
+                <div className="flex-1">
+                  <h2 className="text-2xl font-bold text-gray-900 mb-1">
+                    Sites Vedettes
+                  </h2>
+                  <p className="text-gray-600">Notre sélection des meilleurs sites web</p>
+                </div>
+                <Badge variant="outline" className="text-sm font-medium px-3 py-1">
+                  {featuredWebsites.length} sites premium
+                </Badge>
               </div>
             </div>
           )}
