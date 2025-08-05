@@ -18,7 +18,7 @@ import {
   getFeaturedWebsites,
   searchWebsites,
   getWebsitesByCategory,
-} from "@/data/websites-clean";
+} from "@/data/websites-extended\";-extended\";nded";
 import { cn } from "@/lib/utils";
 
 const IconMap = {
