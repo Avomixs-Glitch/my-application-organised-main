@@ -71,7 +71,7 @@ export const websites: Website[] = [
     description: "Plateforme cloud leader avec services complets",
     category: "cloud",
     featured: true,
-    logo: "https://logo.clearbit.com/aws.amazon.com"
+    logo: "https://logo.clearbit.com/aws.amazon.com",
   },
   {
     id: "azure-2",
@@ -80,7 +80,7 @@ export const websites: Website[] = [
     description: "Plateforme cloud de Microsoft avec services complets",
     category: "cloud",
     featured: true,
-    logo: "https://logo.clearbit.com/azure.microsoft.com"
+    logo: "https://logo.clearbit.com/azure.microsoft.com",
   },
   {
     id: "google-cloud-3",
@@ -89,7 +89,7 @@ export const websites: Website[] = [
     description: "Plateforme cloud de Google avec IA intégrée",
     category: "cloud",
     featured: true,
-    logo: "https://logo.clearbit.com/cloud.google.com"
+    logo: "https://logo.clearbit.com/cloud.google.com",
   },
   {
     id: "digitalocean-4",
@@ -97,7 +97,7 @@ export const websites: Website[] = [
     url: "https://digitalocean.com",
     description: "Cloud simple pour développeurs",
     category: "cloud",
-    logo: "https://logo.clearbit.com/digitalocean.com"
+    logo: "https://logo.clearbit.com/digitalocean.com",
   },
   {
     id: "vultr-5",
@@ -105,7 +105,7 @@ export const websites: Website[] = [
     url: "https://vultr.com",
     description: "Cloud haute performance mondial",
     category: "cloud",
-    logo: "https://logo.clearbit.com/vultr.com"
+    logo: "https://logo.clearbit.com/vultr.com",
   },
   {
     id: "linode-6",
@@ -113,7 +113,7 @@ export const websites: Website[] = [
     url: "https://linode.com",
     description: "Cloud infrastructure simple et abordable",
     category: "cloud",
-    logo: "https://logo.clearbit.com/linode.com"
+    logo: "https://logo.clearbit.com/linode.com",
   },
   {
     id: "hetzner-7",
@@ -121,7 +121,7 @@ export const websites: Website[] = [
     url: "https://hetzner.com",
     description: "Cloud européen économique et performant",
     category: "cloud",
-    logo: "https://logo.clearbit.com/hetzner.com"
+    logo: "https://logo.clearbit.com/hetzner.com",
   },
   {
     id: "ovh-8",
@@ -129,7 +129,7 @@ export const websites: Website[] = [
     url: "https://ovhcloud.com",
     description: "Cloud européen leader avec services dédiés",
     category: "cloud",
-    logo: "https://logo.clearbit.com/ovhcloud.com"
+    logo: "https://logo.clearbit.com/ovhcloud.com",
   },
   {
     id: "cloudflare-9",
@@ -138,7 +138,7 @@ export const websites: Website[] = [
     description: "CDN, sécurité web et services cloud",
     category: "cloud",
     featured: true,
-    logo: "https://logo.clearbit.com/cloudflare.com"
+    logo: "https://logo.clearbit.com/cloudflare.com",
   },
   {
     id: "fastly-10",
@@ -146,7 +146,7 @@ export const websites: Website[] = [
     url: "https://fastly.com",
     description: "CDN et plateforme edge computing",
     category: "cloud",
-    logo: "https://logo.clearbit.com/fastly.com"
+    logo: "https://logo.clearbit.com/fastly.com",
   },
   {
     id: "vercel-11",
@@ -155,7 +155,7 @@ export const websites: Website[] = [
     description: "Plateforme de déploiement pour frontend",
     category: "cloud",
     featured: true,
-    logo: "https://logo.clearbit.com/vercel.com"
+    logo: "https://logo.clearbit.com/vercel.com",
   },
   {
     id: "netlify-12",
@@ -163,7 +163,7 @@ export const websites: Website[] = [
     url: "https://netlify.com",
     description: "Plateforme de déploiement JAMstack",
     category: "cloud",
-    logo: "https://logo.clearbit.com/netlify.com"
+    logo: "https://logo.clearbit.com/netlify.com",
   },
   {
     id: "railway-13",
@@ -171,7 +171,7 @@ export const websites: Website[] = [
     url: "https://railway.app",
     description: "Déploiement cloud simplifié",
     category: "cloud",
-    logo: "https://logo.clearbit.com/railway.app"
+    logo: "https://logo.clearbit.com/railway.app",
   },
   {
     id: "render-14",
@@ -179,7 +179,7 @@ export const websites: Website[] = [
     url: "https://render.com",
     description: "Plateforme cloud unifiée",
     category: "cloud",
-    logo: "https://logo.clearbit.com/render.com"
+    logo: "https://logo.clearbit.com/render.com",
   },
   {
     id: "fly-15",
@@ -187,7 +187,7 @@ export const websites: Website[] = [
     url: "https://fly.io",
     description: "Edge computing global",
     category: "cloud",
-    logo: "https://logo.clearbit.com/fly.io"
+    logo: "https://logo.clearbit.com/fly.io",
   },
   {
     id: "heroku-16",
@@ -195,7 +195,7 @@ export const websites: Website[] = [
     url: "https://heroku.com",
     description: "Plateforme cloud as a service",
     category: "cloud",
-    logo: "https://logo.clearbit.com/heroku.com"
+    logo: "https://logo.clearbit.com/heroku.com",
   },
   {
     id: "planetscale-17",
@@ -203,7 +203,7 @@ export const websites: Website[] = [
     url: "https://planetscale.com",
     description: "Base de données MySQL serverless",
     category: "cloud",
-    logo: "https://logo.clearbit.com/planetscale.com"
+    logo: "https://logo.clearbit.com/planetscale.com",
   },
   {
     id: "supabase-18",
@@ -212,7 +212,7 @@ export const websites: Website[] = [
     description: "Alternative open source à Firebase",
     category: "cloud",
     featured: true,
-    logo: "https://logo.clearbit.com/supabase.com"
+    logo: "https://logo.clearbit.com/supabase.com",
   },
   {
     id: "firebase-19",
@@ -220,7 +220,7 @@ export const websites: Website[] = [
     url: "https://firebase.google.com",
     description: "Plateforme de développement d'applications Google",
     category: "cloud",
-    logo: "https://logo.clearbit.com/firebase.google.com"
+    logo: "https://logo.clearbit.com/firebase.google.com",
   },
   {
     id: "mongodb-atlas-20",
@@ -228,7 +228,7 @@ export const websites: Website[] = [
     url: "https://mongodb.com/atlas",
     description: "Base de données cloud NoSQL",
     category: "cloud",
-    logo: "https://logo.clearbit.com/mongodb.com"
+    logo: "https://logo.clearbit.com/mongodb.com",
   },
   {
     id: "redis-cloud-21",
@@ -236,7 +236,7 @@ export const websites: Website[] = [
     url: "https://redis.com",
     description: "Base de données en mémoire cloud",
     category: "cloud",
-    logo: "https://logo.clearbit.com/redis.com"
+    logo: "https://logo.clearbit.com/redis.com",
   },
   {
     id: "cockroachdb-22",
@@ -244,7 +244,7 @@ export const websites: Website[] = [
     url: "https://cockroachlabs.com",
     description: "Base de données distribuée cloud",
     category: "cloud",
-    logo: "https://logo.clearbit.com/cockroachlabs.com"
+    logo: "https://logo.clearbit.com/cockroachlabs.com",
   },
   {
     id: "neon-23",
@@ -252,7 +252,7 @@ export const websites: Website[] = [
     url: "https://neon.tech",
     description: "PostgreSQL serverless",
     category: "cloud",
-    logo: "https://logo.clearbit.com/neon.tech"
+    logo: "https://logo.clearbit.com/neon.tech",
   },
   {
     id: "xata-24",
@@ -260,7 +260,7 @@ export const websites: Website[] = [
     url: "https://xata.io",
     description: "Base de données serverless moderne",
     category: "cloud",
-    logo: "https://logo.clearbit.com/xata.io"
+    logo: "https://logo.clearbit.com/xata.io",
   },
   {
     id: "cloudinary-25",
@@ -268,7 +268,7 @@ export const websites: Website[] = [
     url: "https://cloudinary.com",
     description: "Gestion d'assets média cloud",
     category: "cloud",
-    logo: "https://logo.clearbit.com/cloudinary.com"
+    logo: "https://logo.clearbit.com/cloudinary.com",
   },
   {
     id: "uploadcare-26",
@@ -276,7 +276,7 @@ export const websites: Website[] = [
     url: "https://uploadcare.com",
     description: "Gestion de fichiers et CDN",
     category: "cloud",
-    logo: "https://logo.clearbit.com/uploadcare.com"
+    logo: "https://logo.clearbit.com/uploadcare.com",
   },
   {
     id: "bunnycdn-27",
@@ -284,7 +284,7 @@ export const websites: Website[] = [
     url: "https://bunny.net",
     description: "CDN haute performance",
     category: "cloud",
-    logo: "https://logo.clearbit.com/bunny.net"
+    logo: "https://logo.clearbit.com/bunny.net",
   },
   {
     id: "backblaze-28",
@@ -292,7 +292,7 @@ export const websites: Website[] = [
     url: "https://backblaze.com",
     description: "Stockage cloud B2",
     category: "cloud",
-    logo: "https://logo.clearbit.com/backblaze.com"
+    logo: "https://logo.clearbit.com/backblaze.com",
   },
   {
     id: "wasabi-29",
@@ -300,7 +300,7 @@ export const websites: Website[] = [
     url: "https://wasabi.com",
     description: "Stockage cloud économique",
     category: "cloud",
-    logo: "https://logo.clearbit.com/wasabi.com"
+    logo: "https://logo.clearbit.com/wasabi.com",
   },
   {
     id: "s3-compatible-30",
@@ -308,7 +308,7 @@ export const websites: Website[] = [
     url: "https://min.io",
     description: "Stockage objet open source",
     category: "cloud",
-    logo: "https://logo.clearbit.com/min.io"
+    logo: "https://logo.clearbit.com/min.io",
   },
   {
     id: "docker-31",
@@ -316,7 +316,7 @@ export const websites: Website[] = [
     url: "https://hub.docker.com",
     description: "Registry de containers Docker",
     category: "cloud",
-    logo: "https://logo.clearbit.com/docker.com"
+    logo: "https://logo.clearbit.com/docker.com",
   },
   {
     id: "kubernetes-32",
@@ -324,7 +324,7 @@ export const websites: Website[] = [
     url: "https://kubernetes.io",
     description: "Orchestration de containers",
     category: "cloud",
-    logo: "https://logo.clearbit.com/kubernetes.io"
+    logo: "https://logo.clearbit.com/kubernetes.io",
   },
   {
     id: "rancher-33",
@@ -332,7 +332,7 @@ export const websites: Website[] = [
     url: "https://rancher.com",
     description: "Plateforme Kubernetes complète",
     category: "cloud",
-    logo: "https://logo.clearbit.com/rancher.com"
+    logo: "https://logo.clearbit.com/rancher.com",
   },
   {
     id: "portainer-34",
@@ -340,7 +340,7 @@ export const websites: Website[] = [
     url: "https://portainer.io",
     description: "Interface de gestion containers",
     category: "cloud",
-    logo: "https://logo.clearbit.com/portainer.io"
+    logo: "https://logo.clearbit.com/portainer.io",
   },
   {
     id: "terraform-35",
@@ -348,7 +348,7 @@ export const websites: Website[] = [
     url: "https://terraform.io",
     description: "Infrastructure as Code",
     category: "cloud",
-    logo: "https://logo.clearbit.com/terraform.io"
+    logo: "https://logo.clearbit.com/terraform.io",
   },
   {
     id: "pulumi-36",
@@ -356,7 +356,7 @@ export const websites: Website[] = [
     url: "https://pulumi.com",
     description: "Infrastructure moderne as Code",
     category: "cloud",
-    logo: "https://logo.clearbit.com/pulumi.com"
+    logo: "https://logo.clearbit.com/pulumi.com",
   },
   {
     id: "ansible-37",
@@ -364,7 +364,7 @@ export const websites: Website[] = [
     url: "https://ansible.com",
     description: "Automatisation IT",
     category: "cloud",
-    logo: "https://logo.clearbit.com/ansible.com"
+    logo: "https://logo.clearbit.com/ansible.com",
   },
   {
     id: "chef-38",
@@ -372,7 +372,7 @@ export const websites: Website[] = [
     url: "https://chef.io",
     description: "Automatisation configuration",
     category: "cloud",
-    logo: "https://logo.clearbit.com/chef.io"
+    logo: "https://logo.clearbit.com/chef.io",
   },
   {
     id: "puppet-39",
@@ -380,7 +380,7 @@ export const websites: Website[] = [
     url: "https://puppet.com",
     description: "Gestion configuration automatisée",
     category: "cloud",
-    logo: "https://logo.clearbit.com/puppet.com"
+    logo: "https://logo.clearbit.com/puppet.com",
   },
   {
     id: "vagrant-40",
@@ -388,7 +388,7 @@ export const websites: Website[] = [
     url: "https://vagrantup.com",
     description: "Environnements de développement portables",
     category: "cloud",
-    logo: "https://logo.clearbit.com/vagrantup.com"
+    logo: "https://logo.clearbit.com/vagrantup.com",
   },
   {
     id: "packer-41",
@@ -396,7 +396,7 @@ export const websites: Website[] = [
     url: "https://packer.io",
     description: "Construction d'images machine",
     category: "cloud",
-    logo: "https://logo.clearbit.com/packer.io"
+    logo: "https://logo.clearbit.com/packer.io",
   },
   {
     id: "consul-42",
@@ -404,7 +404,7 @@ export const websites: Website[] = [
     url: "https://consul.io",
     description: "Service mesh et discovery",
     category: "cloud",
-    logo: "https://logo.clearbit.com/consul.io"
+    logo: "https://logo.clearbit.com/consul.io",
   },
   {
     id: "vault-43",
@@ -412,7 +412,7 @@ export const websites: Website[] = [
     url: "https://vaultproject.io",
     description: "Gestion de secrets sécurisée",
     category: "cloud",
-    logo: "https://logo.clearbit.com/vaultproject.io"
+    logo: "https://logo.clearbit.com/vaultproject.io",
   },
   {
     id: "nomad-44",
@@ -420,7 +420,7 @@ export const websites: Website[] = [
     url: "https://nomadproject.io",
     description: "Orchestrateur de workloads",
     category: "cloud",
-    logo: "https://logo.clearbit.com/nomadproject.io"
+    logo: "https://logo.clearbit.com/nomadproject.io",
   },
   {
     id: "istio-45",
@@ -428,7 +428,7 @@ export const websites: Website[] = [
     url: "https://istio.io",
     description: "Service mesh pour Kubernetes",
     category: "cloud",
-    logo: "https://logo.clearbit.com/istio.io"
+    logo: "https://logo.clearbit.com/istio.io",
   },
   {
     id: "linkerd-46",
@@ -436,7 +436,7 @@ export const websites: Website[] = [
     url: "https://linkerd.io",
     description: "Service mesh ultralight",
     category: "cloud",
-    logo: "https://logo.clearbit.com/linkerd.io"
+    logo: "https://logo.clearbit.com/linkerd.io",
   },
   {
     id: "prometheus-47",
@@ -444,7 +444,7 @@ export const websites: Website[] = [
     url: "https://prometheus.io",
     description: "Monitoring et alerting",
     category: "cloud",
-    logo: "https://logo.clearbit.com/prometheus.io"
+    logo: "https://logo.clearbit.com/prometheus.io",
   },
   {
     id: "grafana-48",
@@ -452,7 +452,7 @@ export const websites: Website[] = [
     url: "https://grafana.com",
     description: "Visualisation de données",
     category: "cloud",
-    logo: "https://logo.clearbit.com/grafana.com"
+    logo: "https://logo.clearbit.com/grafana.com",
   },
   {
     id: "datadog-49",
@@ -460,7 +460,7 @@ export const websites: Website[] = [
     url: "https://datadoghq.com",
     description: "Monitoring et observabilité",
     category: "cloud",
-    logo: "https://logo.clearbit.com/datadoghq.com"
+    logo: "https://logo.clearbit.com/datadoghq.com",
   },
   {
     id: "newrelic-50",
@@ -468,7 +468,7 @@ export const websites: Website[] = [
     url: "https://newrelic.com",
     description: "Plateforme d'observabilité complète",
     category: "cloud",
-    logo: "https://logo.clearbit.com/newrelic.com"
+    logo: "https://logo.clearbit.com/newrelic.com",
   },
 
   // ===== INTELLIGENCE ARTIFICIELLE =====
@@ -479,7 +479,7 @@ export const websites: Website[] = [
     description: "Recherche en IA et GPT",
     category: "ai",
     featured: true,
-    logo: "https://logo.clearbit.com/openai.com"
+    logo: "https://logo.clearbit.com/openai.com",
   },
   {
     id: "chatgpt-52",
@@ -488,7 +488,7 @@ export const websites: Website[] = [
     description: "Assistant IA conversationnel avancé",
     category: "ai",
     featured: true,
-    logo: "https://logo.clearbit.com/openai.com"
+    logo: "https://logo.clearbit.com/openai.com",
   },
   {
     id: "claude-53",
@@ -497,7 +497,7 @@ export const websites: Website[] = [
     description: "Assistant IA d'Anthropic",
     category: "ai",
     featured: true,
-    logo: "https://logo.clearbit.com/anthropic.com"
+    logo: "https://logo.clearbit.com/anthropic.com",
   },
   {
     id: "gemini-54",
@@ -506,7 +506,7 @@ export const websites: Website[] = [
     description: "IA multimodale de Google",
     category: "ai",
     featured: true,
-    logo: "https://logo.clearbit.com/google.com"
+    logo: "https://logo.clearbit.com/google.com",
   },
   {
     id: "copilot-55",
@@ -514,7 +514,7 @@ export const websites: Website[] = [
     url: "https://copilot.microsoft.com",
     description: "Assistant IA de Microsoft",
     category: "ai",
-    logo: "https://logo.clearbit.com/microsoft.com"
+    logo: "https://logo.clearbit.com/microsoft.com",
   },
   {
     id: "perplexity-56",
@@ -522,7 +522,7 @@ export const websites: Website[] = [
     url: "https://perplexity.ai",
     description: "Moteur de recherche IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/perplexity.ai"
+    logo: "https://logo.clearbit.com/perplexity.ai",
   },
   {
     id: "you-57",
@@ -530,7 +530,7 @@ export const websites: Website[] = [
     url: "https://you.com",
     description: "Recherche IA personnalisée",
     category: "ai",
-    logo: "https://logo.clearbit.com/you.com"
+    logo: "https://logo.clearbit.com/you.com",
   },
   {
     id: "huggingface-58",
@@ -539,7 +539,7 @@ export const websites: Website[] = [
     description: "Plateforme de modèles ML",
     category: "ai",
     featured: true,
-    logo: "https://logo.clearbit.com/huggingface.co"
+    logo: "https://logo.clearbit.com/huggingface.co",
   },
   {
     id: "replicate-59",
@@ -547,7 +547,7 @@ export const websites: Website[] = [
     url: "https://replicate.com",
     description: "API pour modèles IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/replicate.com"
+    logo: "https://logo.clearbit.com/replicate.com",
   },
   {
     id: "runway-60",
@@ -556,7 +556,7 @@ export const websites: Website[] = [
     description: "Outils créatifs IA",
     category: "ai",
     featured: true,
-    logo: "https://logo.clearbit.com/runwayml.com"
+    logo: "https://logo.clearbit.com/runwayml.com",
   },
   {
     id: "midjourney-61",
@@ -565,7 +565,7 @@ export const websites: Website[] = [
     description: "Génération d'images IA",
     category: "ai",
     featured: true,
-    logo: "https://logo.clearbit.com/midjourney.com"
+    logo: "https://logo.clearbit.com/midjourney.com",
   },
   {
     id: "stable-diffusion-62",
@@ -573,7 +573,7 @@ export const websites: Website[] = [
     url: "https://stability.ai",
     description: "Stable Diffusion et modèles génératifs",
     category: "ai",
-    logo: "https://logo.clearbit.com/stability.ai"
+    logo: "https://logo.clearbit.com/stability.ai",
   },
   {
     id: "dalle-63",
@@ -581,7 +581,7 @@ export const websites: Website[] = [
     url: "https://labs.openai.com",
     description: "Génération d'images OpenAI",
     category: "ai",
-    logo: "https://logo.clearbit.com/openai.com"
+    logo: "https://logo.clearbit.com/openai.com",
   },
   {
     id: "leonardo-64",
@@ -589,7 +589,7 @@ export const websites: Website[] = [
     url: "https://leonardo.ai",
     description: "Création d'assets créatifs IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/leonardo.ai"
+    logo: "https://logo.clearbit.com/leonardo.ai",
   },
   {
     id: "jasper-65",
@@ -597,7 +597,7 @@ export const websites: Website[] = [
     url: "https://jasper.ai",
     description: "Assistant de rédaction IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/jasper.ai"
+    logo: "https://logo.clearbit.com/jasper.ai",
   },
   {
     id: "copy-ai-66",
@@ -605,7 +605,7 @@ export const websites: Website[] = [
     url: "https://copy.ai",
     description: "Rédaction marketing IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/copy.ai"
+    logo: "https://logo.clearbit.com/copy.ai",
   },
   {
     id: "writesonic-67",
@@ -613,7 +613,7 @@ export const websites: Website[] = [
     url: "https://writesonic.com",
     description: "Plateforme de contenu IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/writesonic.com"
+    logo: "https://logo.clearbit.com/writesonic.com",
   },
   {
     id: "grammarly-68",
@@ -621,7 +621,7 @@ export const websites: Website[] = [
     url: "https://grammarly.com",
     description: "Assistant d'écriture IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/grammarly.com"
+    logo: "https://logo.clearbit.com/grammarly.com",
   },
   {
     id: "notion-ai-69",
@@ -629,7 +629,7 @@ export const websites: Website[] = [
     url: "https://notion.so/product/ai",
     description: "IA intégrée à Notion",
     category: "ai",
-    logo: "https://logo.clearbit.com/notion.so"
+    logo: "https://logo.clearbit.com/notion.so",
   },
   {
     id: "github-copilot-70",
@@ -638,7 +638,7 @@ export const websites: Website[] = [
     description: "Assistant de code IA",
     category: "ai",
     featured: true,
-    logo: "https://logo.clearbit.com/github.com"
+    logo: "https://logo.clearbit.com/github.com",
   },
   {
     id: "cursor-71",
@@ -646,7 +646,7 @@ export const websites: Website[] = [
     url: "https://cursor.sh",
     description: "Éditeur de code IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/cursor.sh"
+    logo: "https://logo.clearbit.com/cursor.sh",
   },
   {
     id: "codeium-72",
@@ -654,7 +654,7 @@ export const websites: Website[] = [
     url: "https://codeium.com",
     description: "Assistant de code IA gratuit",
     category: "ai",
-    logo: "https://logo.clearbit.com/codeium.com"
+    logo: "https://logo.clearbit.com/codeium.com",
   },
   {
     id: "tabnine-73",
@@ -662,7 +662,7 @@ export const websites: Website[] = [
     url: "https://tabnine.com",
     description: "Autocomplétion de code IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/tabnine.com"
+    logo: "https://logo.clearbit.com/tabnine.com",
   },
   {
     id: "replit-ai-74",
@@ -670,7 +670,7 @@ export const websites: Website[] = [
     url: "https://replit.com/ai",
     description: "Codage collaboratif IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/replit.com"
+    logo: "https://logo.clearbit.com/replit.com",
   },
   {
     id: "v0-75",
@@ -679,7 +679,7 @@ export const websites: Website[] = [
     description: "Génération d'UI IA",
     category: "ai",
     featured: true,
-    logo: "https://logo.clearbit.com/vercel.com"
+    logo: "https://logo.clearbit.com/vercel.com",
   },
   {
     id: "bolt-76",
@@ -687,7 +687,7 @@ export const websites: Website[] = [
     url: "https://bolt.new",
     description: "Développement web IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/stackblitz.com"
+    logo: "https://logo.clearbit.com/stackblitz.com",
   },
   {
     id: "claude-artifacts-77",
@@ -695,7 +695,7 @@ export const websites: Website[] = [
     url: "https://claude.ai",
     description: "Création d'applications IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/anthropic.com"
+    logo: "https://logo.clearbit.com/anthropic.com",
   },
   {
     id: "elevenlabs-78",
@@ -703,7 +703,7 @@ export const websites: Website[] = [
     url: "https://elevenlabs.io",
     description: "Synthèse vocale IA réaliste",
     category: "ai",
-    logo: "https://logo.clearbit.com/elevenlabs.io"
+    logo: "https://logo.clearbit.com/elevenlabs.io",
   },
   {
     id: "murf-79",
@@ -711,7 +711,7 @@ export const websites: Website[] = [
     url: "https://murf.ai",
     description: "Voix off IA professionnelle",
     category: "ai",
-    logo: "https://logo.clearbit.com/murf.ai"
+    logo: "https://logo.clearbit.com/murf.ai",
   },
   {
     id: "synthesia-80",
@@ -719,7 +719,7 @@ export const websites: Website[] = [
     url: "https://synthesia.io",
     description: "Vidéos IA avec avatars",
     category: "ai",
-    logo: "https://logo.clearbit.com/synthesia.io"
+    logo: "https://logo.clearbit.com/synthesia.io",
   },
   {
     id: "heygen-81",
@@ -727,7 +727,7 @@ export const websites: Website[] = [
     url: "https://heygen.com",
     description: "Création vidéo IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/heygen.com"
+    logo: "https://logo.clearbit.com/heygen.com",
   },
   {
     id: "luma-82",
@@ -735,7 +735,7 @@ export const websites: Website[] = [
     url: "https://lumalabs.ai",
     description: "Capture 3D et vidéo IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/lumalabs.ai"
+    logo: "https://logo.clearbit.com/lumalabs.ai",
   },
   {
     id: "runwayml-83",
@@ -743,7 +743,7 @@ export const websites: Website[] = [
     url: "https://runwayml.com",
     description: "Outils créatifs IA avancés",
     category: "ai",
-    logo: "https://logo.clearbit.com/runwayml.com"
+    logo: "https://logo.clearbit.com/runwayml.com",
   },
   {
     id: "pika-84",
@@ -751,7 +751,7 @@ export const websites: Website[] = [
     url: "https://pika.art",
     description: "Génération vidéo IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/pika.art"
+    logo: "https://logo.clearbit.com/pika.art",
   },
   {
     id: "meta-ai-85",
@@ -759,7 +759,7 @@ export const websites: Website[] = [
     url: "https://ai.meta.com",
     description: "Recherche IA de Meta",
     category: "ai",
-    logo: "https://logo.clearbit.com/meta.com"
+    logo: "https://logo.clearbit.com/meta.com",
   },
   {
     id: "character-ai-86",
@@ -767,7 +767,7 @@ export const websites: Website[] = [
     url: "https://character.ai",
     description: "Chatbots de personnages IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/character.ai"
+    logo: "https://logo.clearbit.com/character.ai",
   },
   {
     id: "janitor-ai-87",
@@ -775,7 +775,7 @@ export const websites: Website[] = [
     url: "https://janitorai.com",
     description: "Chatbots personnalisés",
     category: "ai",
-    logo: "https://logo.clearbit.com/janitorai.com"
+    logo: "https://logo.clearbit.com/janitorai.com",
   },
   {
     id: "pi-ai-88",
@@ -783,7 +783,7 @@ export const websites: Website[] = [
     url: "https://pi.ai",
     description: "Assistant personnel IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/inflection.ai"
+    logo: "https://logo.clearbit.com/inflection.ai",
   },
   {
     id: "poe-89",
@@ -791,7 +791,7 @@ export const websites: Website[] = [
     url: "https://poe.com",
     description: "Accès à plusieurs IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/quora.com"
+    logo: "https://logo.clearbit.com/quora.com",
   },
   {
     id: "cohere-90",
@@ -799,7 +799,7 @@ export const websites: Website[] = [
     url: "https://cohere.com",
     description: "Modèles de langage pour entreprises",
     category: "ai",
-    logo: "https://logo.clearbit.com/cohere.com"
+    logo: "https://logo.clearbit.com/cohere.com",
   },
   {
     id: "anthropic-91",
@@ -807,7 +807,7 @@ export const websites: Website[] = [
     url: "https://anthropic.com",
     description: "Recherche en sécurité IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/anthropic.com"
+    logo: "https://logo.clearbit.com/anthropic.com",
   },
   {
     id: "deepmind-92",
@@ -815,7 +815,7 @@ export const websites: Website[] = [
     url: "https://deepmind.com",
     description: "Recherche IA avancée",
     category: "ai",
-    logo: "https://logo.clearbit.com/deepmind.com"
+    logo: "https://logo.clearbit.com/deepmind.com",
   },
   {
     id: "openrouter-93",
@@ -823,7 +823,7 @@ export const websites: Website[] = [
     url: "https://openrouter.ai",
     description: "API unifiée pour modèles IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/openrouter.ai"
+    logo: "https://logo.clearbit.com/openrouter.ai",
   },
   {
     id: "together-94",
@@ -831,7 +831,7 @@ export const websites: Website[] = [
     url: "https://together.ai",
     description: "Modèles open source en cloud",
     category: "ai",
-    logo: "https://logo.clearbit.com/together.ai"
+    logo: "https://logo.clearbit.com/together.ai",
   },
   {
     id: "groq-95",
@@ -839,7 +839,7 @@ export const websites: Website[] = [
     url: "https://groq.com",
     description: "Inférence IA ultra-rapide",
     category: "ai",
-    logo: "https://logo.clearbit.com/groq.com"
+    logo: "https://logo.clearbit.com/groq.com",
   },
   {
     id: "fireworks-96",
@@ -847,7 +847,7 @@ export const websites: Website[] = [
     url: "https://fireworks.ai",
     description: "Plateforme d'inférence IA",
     category: "ai",
-    logo: "https://logo.clearbit.com/fireworks.ai"
+    logo: "https://logo.clearbit.com/fireworks.ai",
   },
   {
     id: "anyscale-97",
@@ -855,7 +855,7 @@ export const websites: Website[] = [
     url: "https://anyscale.com",
     description: "MLOps et Ray scaling",
     category: "ai",
-    logo: "https://logo.clearbit.com/anyscale.com"
+    logo: "https://logo.clearbit.com/anyscale.com",
   },
   {
     id: "weights-biases-98",
@@ -863,7 +863,7 @@ export const websites: Website[] = [
     url: "https://wandb.ai",
     description: "MLOps et expérimentation",
     category: "ai",
-    logo: "https://logo.clearbit.com/wandb.ai"
+    logo: "https://logo.clearbit.com/wandb.ai",
   },
   {
     id: "neptune-99",
@@ -871,7 +871,7 @@ export const websites: Website[] = [
     url: "https://neptune.ai",
     description: "Gestion d'expériences ML",
     category: "ai",
-    logo: "https://logo.clearbit.com/neptune.ai"
+    logo: "https://logo.clearbit.com/neptune.ai",
   },
   {
     id: "clearml-100",
@@ -879,7 +879,7 @@ export const websites: Website[] = [
     url: "https://clear.ml",
     description: "Plateforme MLOps open source",
     category: "ai",
-    logo: "https://logo.clearbit.com/clear.ml"
+    logo: "https://logo.clearbit.com/clear.ml",
   },
 
   // ===== DÉVELOPPEMENT & CODE =====
@@ -890,7 +890,7 @@ export const websites: Website[] = [
     description: "Plateforme de développement collaboratif",
     category: "development",
     featured: true,
-    logo: "https://logo.clearbit.com/github.com"
+    logo: "https://logo.clearbit.com/github.com",
   },
   {
     id: "gitlab-102",
@@ -898,7 +898,7 @@ export const websites: Website[] = [
     url: "https://gitlab.com",
     description: "DevOps platform complète",
     category: "development",
-    logo: "https://logo.clearbit.com/gitlab.com"
+    logo: "https://logo.clearbit.com/gitlab.com",
   },
   {
     id: "bitbucket-103",
@@ -906,7 +906,7 @@ export const websites: Website[] = [
     url: "https://bitbucket.org",
     description: "Git repositories par Atlassian",
     category: "development",
-    logo: "https://logo.clearbit.com/bitbucket.org"
+    logo: "https://logo.clearbit.com/bitbucket.org",
   },
   {
     id: "codeberg-104",
@@ -914,7 +914,7 @@ export const websites: Website[] = [
     url: "https://codeberg.org",
     description: "Forge Git open source",
     category: "development",
-    logo: "https://logo.clearbit.com/codeberg.org"
+    logo: "https://logo.clearbit.com/codeberg.org",
   },
   {
     id: "sourceforge-105",
@@ -922,7 +922,7 @@ export const websites: Website[] = [
     url: "https://sourceforge.net",
     description: "Hébergement projets open source",
     category: "development",
-    logo: "https://logo.clearbit.com/sourceforge.net"
+    logo: "https://logo.clearbit.com/sourceforge.net",
   },
   {
     id: "vscode-106",
@@ -931,7 +931,7 @@ export const websites: Website[] = [
     description: "Éditeur de code populaire",
     category: "development",
     featured: true,
-    logo: "https://logo.clearbit.com/code.visualstudio.com"
+    logo: "https://logo.clearbit.com/code.visualstudio.com",
   },
   {
     id: "jetbrains-107",
@@ -939,7 +939,7 @@ export const websites: Website[] = [
     url: "https://jetbrains.com",
     description: "IDEs professionnels",
     category: "development",
-    logo: "https://logo.clearbit.com/jetbrains.com"
+    logo: "https://logo.clearbit.com/jetbrains.com",
   },
   {
     id: "intellij-108",
@@ -947,7 +947,7 @@ export const websites: Website[] = [
     url: "https://jetbrains.com/idea",
     description: "IDE Java avancé",
     category: "development",
-    logo: "https://logo.clearbit.com/jetbrains.com"
+    logo: "https://logo.clearbit.com/jetbrains.com",
   },
   {
     id: "pycharm-109",
@@ -955,7 +955,7 @@ export const websites: Website[] = [
     url: "https://jetbrains.com/pycharm",
     description: "IDE Python professionnel",
     category: "development",
-    logo: "https://logo.clearbit.com/jetbrains.com"
+    logo: "https://logo.clearbit.com/jetbrains.com",
   },
   {
     id: "webstorm-110",
@@ -963,7 +963,7 @@ export const websites: Website[] = [
     url: "https://jetbrains.com/webstorm",
     description: "IDE JavaScript/TypeScript",
     category: "development",
-    logo: "https://logo.clearbit.com/jetbrains.com"
+    logo: "https://logo.clearbit.com/jetbrains.com",
   },
   {
     id: "phpstorm-111",
@@ -971,7 +971,7 @@ export const websites: Website[] = [
     url: "https://jetbrains.com/phpstorm",
     description: "IDE PHP complet",
     category: "development",
-    logo: "https://logo.clearbit.com/jetbrains.com"
+    logo: "https://logo.clearbit.com/jetbrains.com",
   },
   {
     id: "android-studio-112",
@@ -979,7 +979,7 @@ export const websites: Website[] = [
     url: "https://developer.android.com/studio",
     description: "IDE officiel Android",
     category: "development",
-    logo: "https://logo.clearbit.com/developer.android.com"
+    logo: "https://logo.clearbit.com/developer.android.com",
   },
   {
     id: "xcode-113",
@@ -987,7 +987,7 @@ export const websites: Website[] = [
     url: "https://developer.apple.com/xcode",
     description: "IDE officiel Apple",
     category: "development",
-    logo: "https://logo.clearbit.com/developer.apple.com"
+    logo: "https://logo.clearbit.com/developer.apple.com",
   },
   {
     id: "vim-114",
@@ -995,7 +995,7 @@ export const websites: Website[] = [
     url: "https://vim.org",
     description: "Éditeur de texte modal",
     category: "development",
-    logo: "https://logo.clearbit.com/vim.org"
+    logo: "https://logo.clearbit.com/vim.org",
   },
   {
     id: "neovim-115",
@@ -1003,7 +1003,7 @@ export const websites: Website[] = [
     url: "https://neovim.io",
     description: "Vim moderne et extensible",
     category: "development",
-    logo: "https://logo.clearbit.com/neovim.io"
+    logo: "https://logo.clearbit.com/neovim.io",
   },
   {
     id: "emacs-116",
@@ -1011,7 +1011,7 @@ export const websites: Website[] = [
     url: "https://gnu.org/software/emacs",
     description: "Éditeur de texte extensible",
     category: "development",
-    logo: "https://logo.clearbit.com/gnu.org"
+    logo: "https://logo.clearbit.com/gnu.org",
   },
   {
     id: "atom-117",
@@ -1019,7 +1019,7 @@ export const websites: Website[] = [
     url: "https://atom.io",
     description: "Éditeur hackable (archived)",
     category: "development",
-    logo: "https://logo.clearbit.com/atom.io"
+    logo: "https://logo.clearbit.com/atom.io",
   },
   {
     id: "sublime-118",
@@ -1027,7 +1027,7 @@ export const websites: Website[] = [
     url: "https://sublimetext.com",
     description: "Éditeur de texte sophistiqué",
     category: "development",
-    logo: "https://logo.clearbit.com/sublimetext.com"
+    logo: "https://logo.clearbit.com/sublimetext.com",
   },
   {
     id: "brackets-119",
@@ -1035,7 +1035,7 @@ export const websites: Website[] = [
     url: "https://brackets.io",
     description: "Éditeur pour web design",
     category: "development",
-    logo: "https://logo.clearbit.com/brackets.io"
+    logo: "https://logo.clearbit.com/brackets.io",
   },
   {
     id: "codepen-120",
@@ -1044,7 +1044,7 @@ export const websites: Website[] = [
     description: "Playground front-end",
     category: "development",
     featured: true,
-    logo: "https://logo.clearbit.com/codepen.io"
+    logo: "https://logo.clearbit.com/codepen.io",
   },
   {
     id: "jsfiddle-121",
@@ -1052,7 +1052,7 @@ export const websites: Website[] = [
     url: "https://jsfiddle.net",
     description: "Éditeur en ligne JavaScript",
     category: "development",
-    logo: "https://logo.clearbit.com/jsfiddle.net"
+    logo: "https://logo.clearbit.com/jsfiddle.net",
   },
   {
     id: "jsbin-122",
@@ -1060,7 +1060,7 @@ export const websites: Website[] = [
     url: "https://jsbin.com",
     description: "Débogage collaboratif",
     category: "development",
-    logo: "https://logo.clearbit.com/jsbin.com"
+    logo: "https://logo.clearbit.com/jsbin.com",
   },
   {
     id: "codesandbox-123",
@@ -1069,7 +1069,7 @@ export const websites: Website[] = [
     description: "IDE en ligne pour web",
     category: "development",
     featured: true,
-    logo: "https://logo.clearbit.com/codesandbox.io"
+    logo: "https://logo.clearbit.com/codesandbox.io",
   },
   {
     id: "stackblitz-124",
@@ -1078,7 +1078,7 @@ export const websites: Website[] = [
     description: "IDE instantané en ligne",
     category: "development",
     featured: true,
-    logo: "https://logo.clearbit.com/stackblitz.com"
+    logo: "https://logo.clearbit.com/stackblitz.com",
   },
   {
     id: "replit-125",
@@ -1087,7 +1087,7 @@ export const websites: Website[] = [
     description: "IDE collaboratif multi-langages",
     category: "development",
     featured: true,
-    logo: "https://logo.clearbit.com/replit.com"
+    logo: "https://logo.clearbit.com/replit.com",
   },
   {
     id: "gitpod-126",
@@ -1095,7 +1095,7 @@ export const websites: Website[] = [
     url: "https://gitpod.io",
     description: "Environnements de dev cloud",
     category: "development",
-    logo: "https://logo.clearbit.com/gitpod.io"
+    logo: "https://logo.clearbit.com/gitpod.io",
   },
   {
     id: "github-codespaces-127",
@@ -1103,7 +1103,7 @@ export const websites: Website[] = [
     url: "https://github.com/features/codespaces",
     description: "Environnements dev GitHub",
     category: "development",
-    logo: "https://logo.clearbit.com/github.com"
+    logo: "https://logo.clearbit.com/github.com",
   },
   {
     id: "stackoverflow-128",
@@ -1112,7 +1112,7 @@ export const websites: Website[] = [
     description: "Q&A communauté développeurs",
     category: "development",
     featured: true,
-    logo: "https://logo.clearbit.com/stackoverflow.com"
+    logo: "https://logo.clearbit.com/stackoverflow.com",
   },
   {
     id: "devto-129",
@@ -1120,7 +1120,7 @@ export const websites: Website[] = [
     url: "https://dev.to",
     description: "Communauté de développeurs",
     category: "development",
-    logo: "https://logo.clearbit.com/dev.to"
+    logo: "https://logo.clearbit.com/dev.to",
   },
   {
     id: "hashnode-130",
@@ -1128,7 +1128,7 @@ export const websites: Website[] = [
     url: "https://hashnode.com",
     description: "Plateforme de blogs tech",
     category: "development",
-    logo: "https://logo.clearbit.com/hashnode.com"
+    logo: "https://logo.clearbit.com/hashnode.com",
   },
   {
     id: "medium-131",
@@ -1136,7 +1136,7 @@ export const websites: Website[] = [
     url: "https://medium.com",
     description: "Plateforme de publication",
     category: "development",
-    logo: "https://logo.clearbit.com/medium.com"
+    logo: "https://logo.clearbit.com/medium.com",
   },
   {
     id: "hackernews-132",
@@ -1144,7 +1144,7 @@ export const websites: Website[] = [
     url: "https://news.ycombinator.com",
     description: "Actualités tech et startup",
     category: "development",
-    logo: "https://logo.clearbit.com/ycombinator.com"
+    logo: "https://logo.clearbit.com/ycombinator.com",
   },
   {
     id: "reddit-programming-133",
@@ -1152,7 +1152,7 @@ export const websites: Website[] = [
     url: "https://reddit.com/r/programming",
     description: "Communauté programmation",
     category: "development",
-    logo: "https://logo.clearbit.com/reddit.com"
+    logo: "https://logo.clearbit.com/reddit.com",
   },
   {
     id: "lobsters-134",
@@ -1160,7 +1160,7 @@ export const websites: Website[] = [
     url: "https://lobste.rs",
     description: "Communauté tech focused",
     category: "development",
-    logo: "https://logo.clearbit.com/lobste.rs"
+    logo: "https://logo.clearbit.com/lobste.rs",
   },
   {
     id: "producthunt-135",
@@ -1168,7 +1168,7 @@ export const websites: Website[] = [
     url: "https://producthunt.com",
     description: "Découverte de produits tech",
     category: "development",
-    logo: "https://logo.clearbit.com/producthunt.com"
+    logo: "https://logo.clearbit.com/producthunt.com",
   },
   {
     id: "npm-136",
@@ -1176,7 +1176,7 @@ export const websites: Website[] = [
     url: "https://npmjs.com",
     description: "Gestionnaire packages Node.js",
     category: "development",
-    logo: "https://logo.clearbit.com/npmjs.com"
+    logo: "https://logo.clearbit.com/npmjs.com",
   },
   {
     id: "yarn-137",
@@ -1184,7 +1184,7 @@ export const websites: Website[] = [
     url: "https://yarnpkg.com",
     description: "Package manager rapide",
     category: "development",
-    logo: "https://logo.clearbit.com/yarnpkg.com"
+    logo: "https://logo.clearbit.com/yarnpkg.com",
   },
   {
     id: "pnpm-138",
@@ -1192,7 +1192,7 @@ export const websites: Website[] = [
     url: "https://pnpm.io",
     description: "Package manager efficace",
     category: "development",
-    logo: "https://logo.clearbit.com/pnpm.io"
+    logo: "https://logo.clearbit.com/pnpm.io",
   },
   {
     id: "pypi-139",
@@ -1200,7 +1200,7 @@ export const websites: Website[] = [
     url: "https://pypi.org",
     description: "Python Package Index",
     category: "development",
-    logo: "https://logo.clearbit.com/pypi.org"
+    logo: "https://logo.clearbit.com/pypi.org",
   },
   {
     id: "rubygems-140",
@@ -1208,7 +1208,7 @@ export const websites: Website[] = [
     url: "https://rubygems.org",
     description: "Gestionnaire packages Ruby",
     category: "development",
-    logo: "https://logo.clearbit.com/rubygems.org"
+    logo: "https://logo.clearbit.com/rubygems.org",
   },
   {
     id: "packagist-141",
@@ -1216,7 +1216,7 @@ export const websites: Website[] = [
     url: "https://packagist.org",
     description: "Repository Composer PHP",
     category: "development",
-    logo: "https://logo.clearbit.com/packagist.org"
+    logo: "https://logo.clearbit.com/packagist.org",
   },
   {
     id: "nuget-142",
@@ -1224,7 +1224,7 @@ export const websites: Website[] = [
     url: "https://nuget.org",
     description: "Package manager .NET",
     category: "development",
-    logo: "https://logo.clearbit.com/nuget.org"
+    logo: "https://logo.clearbit.com/nuget.org",
   },
   {
     id: "crates-143",
@@ -1232,7 +1232,7 @@ export const websites: Website[] = [
     url: "https://crates.io",
     description: "Registry packages Rust",
     category: "development",
-    logo: "https://logo.clearbit.com/crates.io"
+    logo: "https://logo.clearbit.com/crates.io",
   },
   {
     id: "golang-pkg-144",
@@ -1240,7 +1240,7 @@ export const websites: Website[] = [
     url: "https://pkg.go.dev",
     description: "Documentation packages Go",
     category: "development",
-    logo: "https://logo.clearbit.com/golang.org"
+    logo: "https://logo.clearbit.com/golang.org",
   },
   {
     id: "maven-145",
@@ -1248,7 +1248,7 @@ export const websites: Website[] = [
     url: "https://search.maven.org",
     description: "Repository Java Maven",
     category: "development",
-    logo: "https://logo.clearbit.com/maven.apache.org"
+    logo: "https://logo.clearbit.com/maven.apache.org",
   },
   {
     id: "docker-hub-146",
@@ -1256,7 +1256,7 @@ export const websites: Website[] = [
     url: "https://hub.docker.com",
     description: "Registry d'images Docker",
     category: "development",
-    logo: "https://logo.clearbit.com/docker.com"
+    logo: "https://logo.clearbit.com/docker.com",
   },
   {
     id: "quay-147",
@@ -1264,7 +1264,7 @@ export const websites: Website[] = [
     url: "https://quay.io",
     description: "Registry containers sécurisé",
     category: "development",
-    logo: "https://logo.clearbit.com/quay.io"
+    logo: "https://logo.clearbit.com/quay.io",
   },
   {
     id: "gcr-148",
@@ -1272,7 +1272,7 @@ export const websites: Website[] = [
     url: "https://cloud.google.com/container-registry",
     description: "Registry Google Cloud",
     category: "development",
-    logo: "https://logo.clearbit.com/cloud.google.com"
+    logo: "https://logo.clearbit.com/cloud.google.com",
   },
   {
     id: "ecr-149",
@@ -1280,7 +1280,7 @@ export const websites: Website[] = [
     url: "https://aws.amazon.com/ecr",
     description: "Registry AWS containers",
     category: "development",
-    logo: "https://logo.clearbit.com/aws.amazon.com"
+    logo: "https://logo.clearbit.com/aws.amazon.com",
   },
   {
     id: "leetcode-150",
@@ -1289,7 +1289,7 @@ export const websites: Website[] = [
     description: "Pratique algorithmes",
     category: "development",
     featured: true,
-    logo: "https://logo.clearbit.com/leetcode.com"
+    logo: "https://logo.clearbit.com/leetcode.com",
   },
 
   // ===== DESIGN & UI/UX =====
@@ -1300,7 +1300,7 @@ export const websites: Website[] = [
     description: "Design collaboratif en ligne",
     category: "design",
     featured: true,
-    logo: "https://logo.clearbit.com/figma.com"
+    logo: "https://logo.clearbit.com/figma.com",
   },
   {
     id: "sketch-152",
@@ -1308,7 +1308,7 @@ export const websites: Website[] = [
     url: "https://sketch.com",
     description: "Design d'interfaces Mac",
     category: "design",
-    logo: "https://logo.clearbit.com/sketch.com"
+    logo: "https://logo.clearbit.com/sketch.com",
   },
   {
     id: "adobe-xd-153",
@@ -1316,7 +1316,7 @@ export const websites: Website[] = [
     url: "https://adobe.com/products/xd",
     description: "Design et prototypage UX",
     category: "design",
-    logo: "https://logo.clearbit.com/adobe.com"
+    logo: "https://logo.clearbit.com/adobe.com",
   },
   {
     id: "adobe-photoshop-154",
@@ -1325,7 +1325,7 @@ export const websites: Website[] = [
     description: "Édition d'images professionnelle",
     category: "design",
     featured: true,
-    logo: "https://logo.clearbit.com/adobe.com"
+    logo: "https://logo.clearbit.com/adobe.com",
   },
   {
     id: "adobe-illustrator-155",
@@ -1333,7 +1333,7 @@ export const websites: Website[] = [
     url: "https://adobe.com/products/illustrator",
     description: "Design vectoriel professionnel",
     category: "design",
-    logo: "https://logo.clearbit.com/adobe.com"
+    logo: "https://logo.clearbit.com/adobe.com",
   },
   {
     id: "adobe-indesign-156",
@@ -1341,7 +1341,7 @@ export const websites: Website[] = [
     url: "https://adobe.com/products/indesign",
     description: "Mise en page professionnelle",
     category: "design",
-    logo: "https://logo.clearbit.com/adobe.com"
+    logo: "https://logo.clearbit.com/adobe.com",
   },
   {
     id: "canva-157",
@@ -1350,7 +1350,7 @@ export const websites: Website[] = [
     description: "Design graphique simplifié",
     category: "design",
     featured: true,
-    logo: "https://logo.clearbit.com/canva.com"
+    logo: "https://logo.clearbit.com/canva.com",
   },
   {
     id: "framer-158",
@@ -1359,7 +1359,7 @@ export const websites: Website[] = [
     description: "Design et prototypage interactif",
     category: "design",
     featured: true,
-    logo: "https://logo.clearbit.com/framer.com"
+    logo: "https://logo.clearbit.com/framer.com",
   },
   {
     id: "principle-159",
@@ -1367,7 +1367,7 @@ export const websites: Website[] = [
     url: "https://principleformac.com",
     description: "Prototypage d'animations",
     category: "design",
-    logo: "https://logo.clearbit.com/principleformac.com"
+    logo: "https://logo.clearbit.com/principleformac.com",
   },
   {
     id: "protopie-160",
@@ -1375,7 +1375,7 @@ export const websites: Website[] = [
     url: "https://protopie.io",
     description: "Prototypage haute fidélité",
     category: "design",
-    logo: "https://logo.clearbit.com/protopie.io"
+    logo: "https://logo.clearbit.com/protopie.io",
   },
   {
     id: "invision-161",
@@ -1383,7 +1383,7 @@ export const websites: Website[] = [
     url: "https://invisionapp.com",
     description: "Collaboration design",
     category: "design",
-    logo: "https://logo.clearbit.com/invisionapp.com"
+    logo: "https://logo.clearbit.com/invisionapp.com",
   },
   {
     id: "marvel-162",
@@ -1391,7 +1391,7 @@ export const websites: Website[] = [
     url: "https://marvelapp.com",
     description: "Prototypage simple",
     category: "design",
-    logo: "https://logo.clearbit.com/marvelapp.com"
+    logo: "https://logo.clearbit.com/marvelapp.com",
   },
   {
     id: "axure-163",
@@ -1399,7 +1399,7 @@ export const websites: Website[] = [
     url: "https://axure.com",
     description: "Prototypage UX avancé",
     category: "design",
-    logo: "https://logo.clearbit.com/axure.com"
+    logo: "https://logo.clearbit.com/axure.com",
   },
   {
     id: "balsamiq-164",
@@ -1407,7 +1407,7 @@ export const websites: Website[] = [
     url: "https://balsamiq.com",
     description: "Wireframing rapide",
     category: "design",
-    logo: "https://logo.clearbit.com/balsamiq.com"
+    logo: "https://logo.clearbit.com/balsamiq.com",
   },
   {
     id: "miro-165",
@@ -1415,7 +1415,7 @@ export const websites: Website[] = [
     url: "https://miro.com",
     description: "Tableau blanc collaboratif",
     category: "design",
-    logo: "https://logo.clearbit.com/miro.com"
+    logo: "https://logo.clearbit.com/miro.com",
   },
   {
     id: "mural-166",
@@ -1423,7 +1423,7 @@ export const websites: Website[] = [
     url: "https://mural.co",
     description: "Collaboration visuelle",
     category: "design",
-    logo: "https://logo.clearbit.com/mural.co"
+    logo: "https://logo.clearbit.com/mural.co",
   },
   {
     id: "figjam-167",
@@ -1431,7 +1431,7 @@ export const websites: Website[] = [
     url: "https://figma.com/figjam",
     description: "Brainstorming visuel",
     category: "design",
-    logo: "https://logo.clearbit.com/figma.com"
+    logo: "https://logo.clearbit.com/figma.com",
   },
   {
     id: "whimsical-168",
@@ -1439,7 +1439,7 @@ export const websites: Website[] = [
     url: "https://whimsical.com",
     description: "Wireframes et diagrammes",
     category: "design",
-    logo: "https://logo.clearbit.com/whimsical.com"
+    logo: "https://logo.clearbit.com/whimsical.com",
   },
   {
     id: "lucidchart-169",
@@ -1447,7 +1447,7 @@ export const websites: Website[] = [
     url: "https://lucidchart.com",
     description: "Diagrammes intelligents",
     category: "design",
-    logo: "https://logo.clearbit.com/lucidchart.com"
+    logo: "https://logo.clearbit.com/lucidchart.com",
   },
   {
     id: "webflow-170",
@@ -1456,7 +1456,7 @@ export const websites: Website[] = [
     description: "Design web sans code",
     category: "design",
     featured: true,
-    logo: "https://logo.clearbit.com/webflow.com"
+    logo: "https://logo.clearbit.com/webflow.com",
   },
   {
     id: "squarespace-171",
@@ -1464,7 +1464,7 @@ export const websites: Website[] = [
     url: "https://squarespace.com",
     description: "Constructeur de sites élégant",
     category: "design",
-    logo: "https://logo.clearbit.com/squarespace.com"
+    logo: "https://logo.clearbit.com/squarespace.com",
   },
   {
     id: "wix-172",
@@ -1472,7 +1472,7 @@ export const websites: Website[] = [
     url: "https://wix.com",
     description: "Création de sites facile",
     category: "design",
-    logo: "https://logo.clearbit.com/wix.com"
+    logo: "https://logo.clearbit.com/wix.com",
   },
   {
     id: "wordpress-173",
@@ -1480,7 +1480,7 @@ export const websites: Website[] = [
     url: "https://wordpress.com",
     description: "Plateforme de blogs",
     category: "design",
-    logo: "https://logo.clearbit.com/wordpress.com"
+    logo: "https://logo.clearbit.com/wordpress.com",
   },
   {
     id: "dribbble-174",
@@ -1489,7 +1489,7 @@ export const websites: Website[] = [
     description: "Communauté de designers",
     category: "design",
     featured: true,
-    logo: "https://logo.clearbit.com/dribbble.com"
+    logo: "https://logo.clearbit.com/dribbble.com",
   },
   {
     id: "behance-175",
@@ -1497,7 +1497,7 @@ export const websites: Website[] = [
     url: "https://behance.net",
     description: "Portfolio créatif Adobe",
     category: "design",
-    logo: "https://logo.clearbit.com/behance.net"
+    logo: "https://logo.clearbit.com/behance.net",
   },
   {
     id: "awwwards-176",
@@ -1505,7 +1505,7 @@ export const websites: Website[] = [
     url: "https://awwwards.com",
     description: "Inspiration design web",
     category: "design",
-    logo: "https://logo.clearbit.com/awwwards.com"
+    logo: "https://logo.clearbit.com/awwwards.com",
   },
   {
     id: "designspiration-177",
@@ -1513,7 +1513,7 @@ export const websites: Website[] = [
     url: "https://designspiration.com",
     description: "Inspiration design",
     category: "design",
-    logo: "https://logo.clearbit.com/designspiration.com"
+    logo: "https://logo.clearbit.com/designspiration.com",
   },
   {
     id: "mobbin-178",
@@ -1521,7 +1521,7 @@ export const websites: Website[] = [
     url: "https://mobbin.design",
     description: "Inspiration design mobile",
     category: "design",
-    logo: "https://logo.clearbit.com/mobbin.design"
+    logo: "https://logo.clearbit.com/mobbin.design",
   },
   {
     id: "collect-ui-179",
@@ -1529,7 +1529,7 @@ export const websites: Website[] = [
     url: "https://collectui.com",
     description: "Collection d'interfaces",
     category: "design",
-    logo: "https://logo.clearbit.com/collectui.com"
+    logo: "https://logo.clearbit.com/collectui.com",
   },
   {
     id: "ui-garage-180",
@@ -1537,7 +1537,7 @@ export const websites: Website[] = [
     url: "https://uigarage.net",
     description: "Inspiration UI/UX",
     category: "design",
-    logo: "https://logo.clearbit.com/uigarage.net"
+    logo: "https://logo.clearbit.com/uigarage.net",
   },
   {
     id: "pages-181",
@@ -1545,7 +1545,7 @@ export const websites: Website[] = [
     url: "https://pageflows.com",
     description: "Flux UX de référence",
     category: "design",
-    logo: "https://logo.clearbit.com/pageflows.com"
+    logo: "https://logo.clearbit.com/pageflows.com",
   },
   {
     id: "goodux-182",
@@ -1553,7 +1553,7 @@ export const websites: Website[] = [
     url: "https://goodux.appcues.com",
     description: "Exemples UX excellents",
     category: "design",
-    logo: "https://logo.clearbit.com/appcues.com"
+    logo: "https://logo.clearbit.com/appcues.com",
   },
   {
     id: "ux-planet-183",
@@ -1561,7 +1561,7 @@ export const websites: Website[] = [
     url: "https://uxplanet.org",
     description: "Ressources UX",
     category: "design",
-    logo: "https://logo.clearbit.com/uxplanet.org"
+    logo: "https://logo.clearbit.com/uxplanet.org",
   },
   {
     id: "google-fonts-184",
@@ -1569,7 +1569,7 @@ export const websites: Website[] = [
     url: "https://fonts.google.com",
     description: "Polices web gratuites",
     category: "design",
-    logo: "https://logo.clearbit.com/fonts.google.com"
+    logo: "https://logo.clearbit.com/fonts.google.com",
   },
   {
     id: "adobe-fonts-185",
@@ -1577,7 +1577,7 @@ export const websites: Website[] = [
     url: "https://fonts.adobe.com",
     description: "Bibliothèque de polices",
     category: "design",
-    logo: "https://logo.clearbit.com/adobe.com"
+    logo: "https://logo.clearbit.com/adobe.com",
   },
   {
     id: "font-squirrel-186",
@@ -1585,7 +1585,7 @@ export const websites: Website[] = [
     url: "https://fontsquirrel.com",
     description: "Polices commerciales gratuites",
     category: "design",
-    logo: "https://logo.clearbit.com/fontsquirrel.com"
+    logo: "https://logo.clearbit.com/fontsquirrel.com",
   },
   {
     id: "dafont-187",
@@ -1593,7 +1593,7 @@ export const websites: Website[] = [
     url: "https://dafont.com",
     description: "Archive de polices",
     category: "design",
-    logo: "https://logo.clearbit.com/dafont.com"
+    logo: "https://logo.clearbit.com/dafont.com",
   },
   {
     id: "unsplash-188",
@@ -1602,7 +1602,7 @@ export const websites: Website[] = [
     description: "Photos haute qualité gratuites",
     category: "design",
     featured: true,
-    logo: "https://logo.clearbit.com/unsplash.com"
+    logo: "https://logo.clearbit.com/unsplash.com",
   },
   {
     id: "pexels-189",
@@ -1610,7 +1610,7 @@ export const websites: Website[] = [
     url: "https://pexels.com",
     description: "Photos et vidéos gratuites",
     category: "design",
-    logo: "https://logo.clearbit.com/pexels.com"
+    logo: "https://logo.clearbit.com/pexels.com",
   },
   {
     id: "pixabay-190",
@@ -1618,7 +1618,7 @@ export const websites: Website[] = [
     url: "https://pixabay.com",
     description: "Images libres de droits",
     category: "design",
-    logo: "https://logo.clearbit.com/pixabay.com"
+    logo: "https://logo.clearbit.com/pixabay.com",
   },
   {
     id: "freepik-191",
@@ -1626,7 +1626,7 @@ export const websites: Website[] = [
     url: "https://freepik.com",
     description: "Ressources graphiques",
     category: "design",
-    logo: "https://logo.clearbit.com/freepik.com"
+    logo: "https://logo.clearbit.com/freepik.com",
   },
   {
     id: "iconify-192",
@@ -1634,7 +1634,7 @@ export const websites: Website[] = [
     url: "https://iconify.design",
     description: "Collection d'icônes unifiée",
     category: "design",
-    logo: "https://logo.clearbit.com/iconify.design"
+    logo: "https://logo.clearbit.com/iconify.design",
   },
   {
     id: "heroicons-193",
@@ -1642,7 +1642,7 @@ export const websites: Website[] = [
     url: "https://heroicons.com",
     description: "Icônes SVG Tailwind",
     category: "design",
-    logo: "https://logo.clearbit.com/heroicons.com"
+    logo: "https://logo.clearbit.com/heroicons.com",
   },
   {
     id: "feather-194",
@@ -1650,7 +1650,7 @@ export const websites: Website[] = [
     url: "https://feathericons.com",
     description: "Icônes simples et belles",
     category: "design",
-    logo: "https://logo.clearbit.com/feathericons.com"
+    logo: "https://logo.clearbit.com/feathericons.com",
   },
   {
     id: "lucide-195",
@@ -1658,7 +1658,7 @@ export const websites: Website[] = [
     url: "https://lucide.dev",
     description: "Icônes Feather modernes",
     category: "design",
-    logo: "https://logo.clearbit.com/lucide.dev"
+    logo: "https://logo.clearbit.com/lucide.dev",
   },
   {
     id: "react-icons-196",
@@ -1666,7 +1666,7 @@ export const websites: Website[] = [
     url: "https://react-icons.github.io",
     description: "Icônes pour React",
     category: "design",
-    logo: "https://logo.clearbit.com/react-icons.github.io"
+    logo: "https://logo.clearbit.com/react-icons.github.io",
   },
   {
     id: "fontawesome-197",
@@ -1674,7 +1674,7 @@ export const websites: Website[] = [
     url: "https://fontawesome.com",
     description: "Icônes web populaires",
     category: "design",
-    logo: "https://logo.clearbit.com/fontawesome.com"
+    logo: "https://logo.clearbit.com/fontawesome.com",
   },
   {
     id: "coolors-198",
@@ -1682,7 +1682,7 @@ export const websites: Website[] = [
     url: "https://coolors.co",
     description: "Générateur de palettes",
     category: "design",
-    logo: "https://logo.clearbit.com/coolors.co"
+    logo: "https://logo.clearbit.com/coolors.co",
   },
   {
     id: "adobe-color-199",
@@ -1690,7 +1690,7 @@ export const websites: Website[] = [
     url: "https://color.adobe.com",
     description: "Roue chromatique Adobe",
     category: "design",
-    logo: "https://logo.clearbit.com/adobe.com"
+    logo: "https://logo.clearbit.com/adobe.com",
   },
   {
     id: "color-hunt-200",
@@ -1698,7 +1698,7 @@ export const websites: Website[] = [
     url: "https://colorhunt.co",
     description: "Palettes de couleurs tendance",
     category: "design",
-    logo: "https://logo.clearbit.com/colorhunt.co"
+    logo: "https://logo.clearbit.com/colorhunt.co",
   },
 
   // ===== PRODUCTIVITÉ & OUTILS =====
@@ -1709,7 +1709,7 @@ export const websites: Website[] = [
     description: "Espace de travail tout-en-un",
     category: "productivity",
     featured: true,
-    logo: "https://logo.clearbit.com/notion.so"
+    logo: "https://logo.clearbit.com/notion.so",
   },
   {
     id: "obsidian-202",
@@ -1717,7 +1717,7 @@ export const websites: Website[] = [
     url: "https://obsidian.md",
     description: "Base de connaissances personnelle",
     category: "productivity",
-    logo: "https://logo.clearbit.com/obsidian.md"
+    logo: "https://logo.clearbit.com/obsidian.md",
   },
   {
     id: "roam-203",
@@ -1725,7 +1725,7 @@ export const websites: Website[] = [
     url: "https://roamresearch.com",
     description: "Outil de pensée en réseau",
     category: "productivity",
-    logo: "https://logo.clearbit.com/roamresearch.com"
+    logo: "https://logo.clearbit.com/roamresearch.com",
   },
   {
     id: "logseq-204",
@@ -1733,7 +1733,7 @@ export const websites: Website[] = [
     url: "https://logseq.com",
     description: "Graphe de connaissances local",
     category: "productivity",
-    logo: "https://logo.clearbit.com/logseq.com"
+    logo: "https://logo.clearbit.com/logseq.com",
   },
   {
     id: "craft-205",
@@ -1741,7 +1741,7 @@ export const websites: Website[] = [
     url: "https://craftdocs.com",
     description: "Éditeur de documents structurés",
     category: "productivity",
-    logo: "https://logo.clearbit.com/craftdocs.com"
+    logo: "https://logo.clearbit.com/craftdocs.com",
   },
   {
     id: "bear-206",
@@ -1749,7 +1749,7 @@ export const websites: Website[] = [
     url: "https://bear.app",
     description: "Éditeur de notes Markdown",
     category: "productivity",
-    logo: "https://logo.clearbit.com/bear.app"
+    logo: "https://logo.clearbit.com/bear.app",
   },
   {
     id: "ulysses-207",
@@ -1757,7 +1757,7 @@ export const websites: Website[] = [
     url: "https://ulysses.app",
     description: "App d'écriture pour Mac",
     category: "productivity",
-    logo: "https://logo.clearbit.com/ulysses.app"
+    logo: "https://logo.clearbit.com/ulysses.app",
   },
   {
     id: "typora-208",
@@ -1765,7 +1765,7 @@ export const websites: Website[] = [
     url: "https://typora.io",
     description: "Éditeur Markdown WYSIWYG",
     category: "productivity",
-    logo: "https://logo.clearbit.com/typora.io"
+    logo: "https://logo.clearbit.com/typora.io",
   },
   {
     id: "marktext-209",
@@ -1773,7 +1773,7 @@ export const websites: Website[] = [
     url: "https://marktext.app",
     description: "Éditeur Markdown temps réel",
     category: "productivity",
-    logo: "https://logo.clearbit.com/marktext.app"
+    logo: "https://logo.clearbit.com/marktext.app",
   },
   {
     id: "zettlr-210",
@@ -1781,7 +1781,7 @@ export const websites: Website[] = [
     url: "https://zettlr.com",
     description: "Éditeur académique Markdown",
     category: "productivity",
-    logo: "https://logo.clearbit.com/zettlr.com"
+    logo: "https://logo.clearbit.com/zettlr.com",
   },
   {
     id: "trello-211",
@@ -1790,7 +1790,7 @@ export const websites: Website[] = [
     description: "Gestion de projets Kanban",
     category: "productivity",
     featured: true,
-    logo: "https://logo.clearbit.com/trello.com"
+    logo: "https://logo.clearbit.com/trello.com",
   },
   {
     id: "asana-212",
@@ -1798,7 +1798,7 @@ export const websites: Website[] = [
     url: "https://asana.com",
     description: "Gestion d'équipes et projets",
     category: "productivity",
-    logo: "https://logo.clearbit.com/asana.com"
+    logo: "https://logo.clearbit.com/asana.com",
   },
   {
     id: "monday-213",
@@ -1806,7 +1806,7 @@ export const websites: Website[] = [
     url: "https://monday.com",
     description: "Plateforme de gestion collaborative",
     category: "productivity",
-    logo: "https://logo.clearbit.com/monday.com"
+    logo: "https://logo.clearbit.com/monday.com",
   },
   {
     id: "clickup-214",
@@ -1814,7 +1814,7 @@ export const websites: Website[] = [
     url: "https://clickup.com",
     description: "Productivité tout-en-un",
     category: "productivity",
-    logo: "https://logo.clearbit.com/clickup.com"
+    logo: "https://logo.clearbit.com/clickup.com",
   },
   {
     id: "linear-215",
@@ -1822,7 +1822,7 @@ export const websites: Website[] = [
     url: "https://linear.app",
     description: "Gestion d'issues moderne",
     category: "productivity",
-    logo: "https://logo.clearbit.com/linear.app"
+    logo: "https://logo.clearbit.com/linear.app",
   },
   {
     id: "height-216",
@@ -1830,7 +1830,7 @@ export const websites: Website[] = [
     url: "https://height.app",
     description: "Gestion de projets autonome",
     category: "productivity",
-    logo: "https://logo.clearbit.com/height.app"
+    logo: "https://logo.clearbit.com/height.app",
   },
   {
     id: "jira-217",
@@ -1838,7 +1838,7 @@ export const websites: Website[] = [
     url: "https://atlassian.com/software/jira",
     description: "Suivi d'issues agile",
     category: "productivity",
-    logo: "https://logo.clearbit.com/atlassian.com"
+    logo: "https://logo.clearbit.com/atlassian.com",
   },
   {
     id: "confluence-218",
@@ -1846,7 +1846,7 @@ export const websites: Website[] = [
     url: "https://atlassian.com/software/confluence",
     description: "Wiki d'équipe collaboratif",
     category: "productivity",
-    logo: "https://logo.clearbit.com/atlassian.com"
+    logo: "https://logo.clearbit.com/atlassian.com",
   },
   {
     id: "slack-219",
@@ -1855,7 +1855,7 @@ export const websites: Website[] = [
     description: "Communication d'équipe",
     category: "productivity",
     featured: true,
-    logo: "https://logo.clearbit.com/slack.com"
+    logo: "https://logo.clearbit.com/slack.com",
   },
   {
     id: "discord-220",
@@ -1863,7 +1863,7 @@ export const websites: Website[] = [
     url: "https://discord.com",
     description: "Communication communautaire",
     category: "productivity",
-    logo: "https://logo.clearbit.com/discord.com"
+    logo: "https://logo.clearbit.com/discord.com",
   },
   {
     id: "teams-221",
@@ -1871,7 +1871,7 @@ export const websites: Website[] = [
     url: "https://teams.microsoft.com",
     description: "Collaboration Microsoft",
     category: "productivity",
-    logo: "https://logo.clearbit.com/microsoft.com"
+    logo: "https://logo.clearbit.com/microsoft.com",
   },
   {
     id: "zoom-222",
@@ -1879,7 +1879,7 @@ export const websites: Website[] = [
     url: "https://zoom.us",
     description: "Visioconférence professionnelle",
     category: "productivity",
-    logo: "https://logo.clearbit.com/zoom.us"
+    logo: "https://logo.clearbit.com/zoom.us",
   },
   {
     id: "meet-223",
@@ -1887,7 +1887,7 @@ export const websites: Website[] = [
     url: "https://meet.google.com",
     description: "Visioconférence Google",
     category: "productivity",
-    logo: "https://logo.clearbit.com/meet.google.com"
+    logo: "https://logo.clearbit.com/meet.google.com",
   },
   {
     id: "webex-224",
@@ -1895,7 +1895,7 @@ export const websites: Website[] = [
     url: "https://webex.com",
     description: "Solutions de réunion",
     category: "productivity",
-    logo: "https://logo.clearbit.com/webex.com"
+    logo: "https://logo.clearbit.com/webex.com",
   },
   {
     id: "around-225",
@@ -1903,7 +1903,7 @@ export const websites: Website[] = [
     url: "https://around.co",
     description: "Visioconférence moderne",
     category: "productivity",
-    logo: "https://logo.clearbit.com/around.co"
+    logo: "https://logo.clearbit.com/around.co",
   },
   {
     id: "loom-226",
@@ -1911,7 +1911,7 @@ export const websites: Website[] = [
     url: "https://loom.com",
     description: "Enregistrement d'écran",
     category: "productivity",
-    logo: "https://logo.clearbit.com/loom.com"
+    logo: "https://logo.clearbit.com/loom.com",
   },
   {
     id: "calendly-227",
@@ -1919,7 +1919,7 @@ export const websites: Website[] = [
     url: "https://calendly.com",
     description: "Planification de rendez-vous",
     category: "productivity",
-    logo: "https://logo.clearbit.com/calendly.com"
+    logo: "https://logo.clearbit.com/calendly.com",
   },
   {
     id: "cal-228",
@@ -1927,7 +1927,7 @@ export const websites: Website[] = [
     url: "https://cal.com",
     description: "Planification open source",
     category: "productivity",
-    logo: "https://logo.clearbit.com/cal.com"
+    logo: "https://logo.clearbit.com/cal.com",
   },
   {
     id: "acuity-229",
@@ -1935,7 +1935,7 @@ export const websites: Website[] = [
     url: "https://acuityscheduling.com",
     description: "Planification avancée",
     category: "productivity",
-    logo: "https://logo.clearbit.com/acuityscheduling.com"
+    logo: "https://logo.clearbit.com/acuityscheduling.com",
   },
   {
     id: "savvycal-230",
@@ -1943,7 +1943,7 @@ export const websites: Website[] = [
     url: "https://savvycal.com",
     description: "Planification personnalisée",
     category: "productivity",
-    logo: "https://logo.clearbit.com/savvycal.com"
+    logo: "https://logo.clearbit.com/savvycal.com",
   },
   {
     id: "gmail-231",
@@ -1952,7 +1952,7 @@ export const websites: Website[] = [
     description: "Email Google",
     category: "productivity",
     featured: true,
-    logo: "https://logo.clearbit.com/gmail.com"
+    logo: "https://logo.clearbit.com/gmail.com",
   },
   {
     id: "outlook-232",
@@ -1960,7 +1960,7 @@ export const websites: Website[] = [
     url: "https://outlook.com",
     description: "Email Microsoft",
     category: "productivity",
-    logo: "https://logo.clearbit.com/outlook.com"
+    logo: "https://logo.clearbit.com/outlook.com",
   },
   {
     id: "protonmail-233",
@@ -1968,7 +1968,7 @@ export const websites: Website[] = [
     url: "https://protonmail.com",
     description: "Email chiffré et sécurisé",
     category: "productivity",
-    logo: "https://logo.clearbit.com/protonmail.com"
+    logo: "https://logo.clearbit.com/protonmail.com",
   },
   {
     id: "hey-234",
@@ -1976,7 +1976,7 @@ export const websites: Website[] = [
     url: "https://hey.com",
     description: "Email réinventé",
     category: "productivity",
-    logo: "https://logo.clearbit.com/hey.com"
+    logo: "https://logo.clearbit.com/hey.com",
   },
   {
     id: "superhuman-235",
@@ -1984,7 +1984,7 @@ export const websites: Website[] = [
     url: "https://superhuman.com",
     description: "Client email ultrarapide",
     category: "productivity",
-    logo: "https://logo.clearbit.com/superhuman.com"
+    logo: "https://logo.clearbit.com/superhuman.com",
   },
   {
     id: "spark-236",
@@ -1992,7 +1992,7 @@ export const websites: Website[] = [
     url: "https://sparkmailapp.com",
     description: "Email intelligent",
     category: "productivity",
-    logo: "https://logo.clearbit.com/sparkmailapp.com"
+    logo: "https://logo.clearbit.com/sparkmailapp.com",
   },
   {
     id: "airtable-237",
@@ -2000,7 +2000,7 @@ export const websites: Website[] = [
     url: "https://airtable.com",
     description: "Base de données collaborative",
     category: "productivity",
-    logo: "https://logo.clearbit.com/airtable.com"
+    logo: "https://logo.clearbit.com/airtable.com",
   },
   {
     id: "coda-238",
@@ -2008,7 +2008,7 @@ export const websites: Website[] = [
     url: "https://coda.io",
     description: "Documents comme bases de données",
     category: "productivity",
-    logo: "https://logo.clearbit.com/coda.io"
+    logo: "https://logo.clearbit.com/coda.io",
   },
   {
     id: "smartsheet-239",
@@ -2016,7 +2016,7 @@ export const websites: Website[] = [
     url: "https://smartsheet.com",
     description: "Plateforme de travail dynamique",
     category: "productivity",
-    logo: "https://logo.clearbit.com/smartsheet.com"
+    logo: "https://logo.clearbit.com/smartsheet.com",
   },
   {
     id: "zapier-240",
@@ -2025,7 +2025,7 @@ export const websites: Website[] = [
     description: "Automatisation sans code",
     category: "productivity",
     featured: true,
-    logo: "https://logo.clearbit.com/zapier.com"
+    logo: "https://logo.clearbit.com/zapier.com",
   },
   {
     id: "make-241",
@@ -2033,7 +2033,7 @@ export const websites: Website[] = [
     url: "https://make.com",
     description: "Automatisation visuelle",
     category: "productivity",
-    logo: "https://logo.clearbit.com/make.com"
+    logo: "https://logo.clearbit.com/make.com",
   },
   {
     id: "ifttt-242",
@@ -2041,7 +2041,7 @@ export const websites: Website[] = [
     url: "https://ifttt.com",
     description: "Automatisation simple",
     category: "productivity",
-    logo: "https://logo.clearbit.com/ifttt.com"
+    logo: "https://logo.clearbit.com/ifttt.com",
   },
   {
     id: "n8n-243",
@@ -2049,7 +2049,7 @@ export const websites: Website[] = [
     url: "https://n8n.io",
     description: "Automatisation self-hosted",
     category: "productivity",
-    logo: "https://logo.clearbit.com/n8n.io"
+    logo: "https://logo.clearbit.com/n8n.io",
   },
   {
     id: "1password-244",
@@ -2057,7 +2057,7 @@ export const websites: Website[] = [
     url: "https://1password.com",
     description: "Gestionnaire de mots de passe",
     category: "productivity",
-    logo: "https://logo.clearbit.com/1password.com"
+    logo: "https://logo.clearbit.com/1password.com",
   },
   {
     id: "lastpass-245",
@@ -2065,7 +2065,7 @@ export const websites: Website[] = [
     url: "https://lastpass.com",
     description: "Gestionnaire de mots de passe",
     category: "productivity",
-    logo: "https://logo.clearbit.com/lastpass.com"
+    logo: "https://logo.clearbit.com/lastpass.com",
   },
   {
     id: "bitwarden-246",
@@ -2073,7 +2073,7 @@ export const websites: Website[] = [
     url: "https://bitwarden.com",
     description: "Gestionnaire open source",
     category: "productivity",
-    logo: "https://logo.clearbit.com/bitwarden.com"
+    logo: "https://logo.clearbit.com/bitwarden.com",
   },
   {
     id: "dashlane-247",
@@ -2081,7 +2081,7 @@ export const websites: Website[] = [
     url: "https://dashlane.com",
     description: "Sécurité des identités",
     category: "productivity",
-    logo: "https://logo.clearbit.com/dashlane.com"
+    logo: "https://logo.clearbit.com/dashlane.com",
   },
   {
     id: "keeper-248",
@@ -2089,7 +2089,7 @@ export const websites: Website[] = [
     url: "https://keepersecurity.com",
     description: "Sécurité des mots de passe",
     category: "productivity",
-    logo: "https://logo.clearbit.com/keepersecurity.com"
+    logo: "https://logo.clearbit.com/keepersecurity.com",
   },
   {
     id: "nordpass-249",
@@ -2097,7 +2097,7 @@ export const websites: Website[] = [
     url: "https://nordpass.com",
     description: "Gestionnaire sécurisé",
     category: "productivity",
-    logo: "https://logo.clearbit.com/nordpass.com"
+    logo: "https://logo.clearbit.com/nordpass.com",
   },
   {
     id: "todoist-250",
@@ -2105,7 +2105,7 @@ export const websites: Website[] = [
     url: "https://todoist.com",
     description: "Gestionnaire de tâches",
     category: "productivity",
-    logo: "https://logo.clearbit.com/todoist.com"
+    logo: "https://logo.clearbit.com/todoist.com",
   },
 
   // ===== MÉDIAS & CRÉATIF =====
@@ -2116,7 +2116,7 @@ export const websites: Website[] = [
     description: "Plateforme vidéo mondiale",
     category: "media",
     featured: true,
-    logo: "https://logo.clearbit.com/youtube.com"
+    logo: "https://logo.clearbit.com/youtube.com",
   },
   {
     id: "vimeo-252",
@@ -2124,7 +2124,7 @@ export const websites: Website[] = [
     url: "https://vimeo.com",
     description: "Plateforme vidéo créative",
     category: "media",
-    logo: "https://logo.clearbit.com/vimeo.com"
+    logo: "https://logo.clearbit.com/vimeo.com",
   },
   {
     id: "twitch-253",
@@ -2133,7 +2133,7 @@ export const websites: Website[] = [
     description: "Streaming de jeux en direct",
     category: "media",
     featured: true,
-    logo: "https://logo.clearbit.com/twitch.tv"
+    logo: "https://logo.clearbit.com/twitch.tv",
   },
   {
     id: "tiktok-254",
@@ -2142,7 +2142,7 @@ export const websites: Website[] = [
     description: "Vidéos courtes créatives",
     category: "media",
     featured: true,
-    logo: "https://logo.clearbit.com/tiktok.com"
+    logo: "https://logo.clearbit.com/tiktok.com",
   },
   {
     id: "instagram-255",
@@ -2151,7 +2151,7 @@ export const websites: Website[] = [
     description: "Partage photo et vidéo",
     category: "media",
     featured: true,
-    logo: "https://logo.clearbit.com/instagram.com"
+    logo: "https://logo.clearbit.com/instagram.com",
   },
   {
     id: "snapchat-256",
@@ -2159,7 +2159,7 @@ export const websites: Website[] = [
     url: "https://snapchat.com",
     description: "Messages éphémères",
     category: "media",
-    logo: "https://logo.clearbit.com/snapchat.com"
+    logo: "https://logo.clearbit.com/snapchat.com",
   },
   {
     id: "pinterest-257",
@@ -2167,7 +2167,7 @@ export const websites: Website[] = [
     url: "https://pinterest.com",
     description: "Découverte visuelle",
     category: "media",
-    logo: "https://logo.clearbit.com/pinterest.com"
+    logo: "https://logo.clearbit.com/pinterest.com",
   },
   {
     id: "flickr-258",
@@ -2175,7 +2175,7 @@ export const websites: Website[] = [
     url: "https://flickr.com",
     description: "Hébergement de photos",
     category: "media",
-    logo: "https://logo.clearbit.com/flickr.com"
+    logo: "https://logo.clearbit.com/flickr.com",
   },
   {
     id: "500px-259",
@@ -2183,7 +2183,7 @@ export const websites: Website[] = [
     url: "https://500px.com",
     description: "Communauté de photographes",
     category: "media",
-    logo: "https://logo.clearbit.com/500px.com"
+    logo: "https://logo.clearbit.com/500px.com",
   },
   {
     id: "behance-260",
@@ -2191,7 +2191,7 @@ export const websites: Website[] = [
     url: "https://behance.net",
     description: "Portfolio créatif",
     category: "media",
-    logo: "https://logo.clearbit.com/behance.net"
+    logo: "https://logo.clearbit.com/behance.net",
   },
   {
     id: "dribbble-261",
@@ -2199,7 +2199,7 @@ export const websites: Website[] = [
     url: "https://dribbble.com",
     description: "Inspiration design",
     category: "media",
-    logo: "https://logo.clearbit.com/dribbble.com"
+    logo: "https://logo.clearbit.com/dribbble.com",
   },
   {
     id: "artstation-262",
@@ -2207,7 +2207,7 @@ export const websites: Website[] = [
     url: "https://artstation.com",
     description: "Portfolio d'art numérique",
     category: "media",
-    logo: "https://logo.clearbit.com/artstation.com"
+    logo: "https://logo.clearbit.com/artstation.com",
   },
   {
     id: "deviantart-263",
@@ -2215,7 +2215,7 @@ export const websites: Website[] = [
     url: "https://deviantart.com",
     description: "Communauté d'artistes",
     category: "media",
-    logo: "https://logo.clearbit.com/deviantart.com"
+    logo: "https://logo.clearbit.com/deviantart.com",
   },
   {
     id: "spotify-264",
@@ -2224,7 +2224,7 @@ export const websites: Website[] = [
     description: "Streaming musical",
     category: "media",
     featured: true,
-    logo: "https://logo.clearbit.com/spotify.com"
+    logo: "https://logo.clearbit.com/spotify.com",
   },
   {
     id: "apple-music-265",
@@ -2232,7 +2232,7 @@ export const websites: Website[] = [
     url: "https://music.apple.com",
     description: "Service musical Apple",
     category: "media",
-    logo: "https://logo.clearbit.com/apple.com"
+    logo: "https://logo.clearbit.com/apple.com",
   },
   {
     id: "youtube-music-266",
@@ -2240,7 +2240,7 @@ export const websites: Website[] = [
     url: "https://music.youtube.com",
     description: "Streaming YouTube",
     category: "media",
-    logo: "https://logo.clearbit.com/youtube.com"
+    logo: "https://logo.clearbit.com/youtube.com",
   },
   {
     id: "soundcloud-267",
@@ -2248,7 +2248,7 @@ export const websites: Website[] = [
     url: "https://soundcloud.com",
     description: "Plateforme audio créative",
     category: "media",
-    logo: "https://logo.clearbit.com/soundcloud.com"
+    logo: "https://logo.clearbit.com/soundcloud.com",
   },
   {
     id: "bandcamp-268",
@@ -2256,7 +2256,7 @@ export const websites: Website[] = [
     url: "https://bandcamp.com",
     description: "Musique indépendante",
     category: "media",
-    logo: "https://logo.clearbit.com/bandcamp.com"
+    logo: "https://logo.clearbit.com/bandcamp.com",
   },
   {
     id: "tidal-269",
@@ -2264,7 +2264,7 @@ export const websites: Website[] = [
     url: "https://tidal.com",
     description: "Streaming haute fidélité",
     category: "media",
-    logo: "https://logo.clearbit.com/tidal.com"
+    logo: "https://logo.clearbit.com/tidal.com",
   },
   {
     id: "deezer-270",
@@ -2272,7 +2272,7 @@ export const websites: Website[] = [
     url: "https://deezer.com",
     description: "Streaming musical global",
     category: "media",
-    logo: "https://logo.clearbit.com/deezer.com"
+    logo: "https://logo.clearbit.com/deezer.com",
   },
   {
     id: "amazon-music-271",
@@ -2280,7 +2280,7 @@ export const websites: Website[] = [
     url: "https://music.amazon.com",
     description: "Service musical Amazon",
     category: "media",
-    logo: "https://logo.clearbit.com/amazon.com"
+    logo: "https://logo.clearbit.com/amazon.com",
   },
   {
     id: "netflix-272",
@@ -2289,7 +2289,7 @@ export const websites: Website[] = [
     description: "Streaming vidéo premium",
     category: "media",
     featured: true,
-    logo: "https://logo.clearbit.com/netflix.com"
+    logo: "https://logo.clearbit.com/netflix.com",
   },
   {
     id: "disney-plus-273",
@@ -2297,7 +2297,7 @@ export const websites: Website[] = [
     url: "https://disneyplus.com",
     description: "Streaming familial Disney",
     category: "media",
-    logo: "https://logo.clearbit.com/disneyplus.com"
+    logo: "https://logo.clearbit.com/disneyplus.com",
   },
   {
     id: "hbo-max-274",
@@ -2305,7 +2305,7 @@ export const websites: Website[] = [
     url: "https://hbomax.com",
     description: "Contenu premium HBO",
     category: "media",
-    logo: "https://logo.clearbit.com/hbomax.com"
+    logo: "https://logo.clearbit.com/hbomax.com",
   },
   {
     id: "prime-video-275",
@@ -2313,7 +2313,7 @@ export const websites: Website[] = [
     url: "https://primevideo.com",
     description: "Streaming Amazon Prime",
     category: "media",
-    logo: "https://logo.clearbit.com/amazon.com"
+    logo: "https://logo.clearbit.com/amazon.com",
   },
   {
     id: "hulu-276",
@@ -2321,7 +2321,7 @@ export const websites: Website[] = [
     url: "https://hulu.com",
     description: "Streaming TV américain",
     category: "media",
-    logo: "https://logo.clearbit.com/hulu.com"
+    logo: "https://logo.clearbit.com/hulu.com",
   },
   {
     id: "paramount-277",
@@ -2329,7 +2329,7 @@ export const websites: Website[] = [
     url: "https://paramountplus.com",
     description: "Streaming Paramount",
     category: "media",
-    logo: "https://logo.clearbit.com/paramountplus.com"
+    logo: "https://logo.clearbit.com/paramountplus.com",
   },
   {
     id: "peacock-278",
@@ -2337,7 +2337,7 @@ export const websites: Website[] = [
     url: "https://peacocktv.com",
     description: "Streaming NBCUniversal",
     category: "media",
-    logo: "https://logo.clearbit.com/peacocktv.com"
+    logo: "https://logo.clearbit.com/peacocktv.com",
   },
   {
     id: "crunchyroll-279",
@@ -2345,7 +2345,7 @@ export const websites: Website[] = [
     url: "https://crunchyroll.com",
     description: "Streaming anime",
     category: "media",
-    logo: "https://logo.clearbit.com/crunchyroll.com"
+    logo: "https://logo.clearbit.com/crunchyroll.com",
   },
   {
     id: "funimation-280",
@@ -2353,7 +2353,7 @@ export const websites: Website[] = [
     url: "https://funimation.com",
     description: "Anime en streaming",
     category: "media",
-    logo: "https://logo.clearbit.com/funimation.com"
+    logo: "https://logo.clearbit.com/funimation.com",
   },
   {
     id: "adobe-premiere-281",
@@ -2361,7 +2361,7 @@ export const websites: Website[] = [
     url: "https://adobe.com/products/premiere",
     description: "Montage vidéo professionnel",
     category: "media",
-    logo: "https://logo.clearbit.com/adobe.com"
+    logo: "https://logo.clearbit.com/adobe.com",
   },
   {
     id: "adobe-after-effects-282",
@@ -2369,7 +2369,7 @@ export const websites: Website[] = [
     url: "https://adobe.com/products/aftereffects",
     description: "Effets visuels et motion",
     category: "media",
-    logo: "https://logo.clearbit.com/adobe.com"
+    logo: "https://logo.clearbit.com/adobe.com",
   },
   {
     id: "final-cut-283",
@@ -2377,7 +2377,7 @@ export const websites: Website[] = [
     url: "https://apple.com/final-cut-pro",
     description: "Montage vidéo Mac",
     category: "media",
-    logo: "https://logo.clearbit.com/apple.com"
+    logo: "https://logo.clearbit.com/apple.com",
   },
   {
     id: "davinci-resolve-284",
@@ -2385,7 +2385,7 @@ export const websites: Website[] = [
     url: "https://blackmagicdesign.com/products/davinciresolve",
     description: "Montage et étalonnage",
     category: "media",
-    logo: "https://logo.clearbit.com/blackmagicdesign.com"
+    logo: "https://logo.clearbit.com/blackmagicdesign.com",
   },
   {
     id: "blender-285",
@@ -2394,7 +2394,7 @@ export const websites: Website[] = [
     description: "Création 3D open source",
     category: "media",
     featured: true,
-    logo: "https://logo.clearbit.com/blender.org"
+    logo: "https://logo.clearbit.com/blender.org",
   },
   {
     id: "cinema4d-286",
@@ -2402,7 +2402,7 @@ export const websites: Website[] = [
     url: "https://maxon.net/cinema-4d",
     description: "Modélisation 3D professionnelle",
     category: "media",
-    logo: "https://logo.clearbit.com/maxon.net"
+    logo: "https://logo.clearbit.com/maxon.net",
   },
   {
     id: "maya-287",
@@ -2410,7 +2410,7 @@ export const websites: Website[] = [
     url: "https://autodesk.com/products/maya",
     description: "Animation 3D professionnelle",
     category: "media",
-    logo: "https://logo.clearbit.com/autodesk.com"
+    logo: "https://logo.clearbit.com/autodesk.com",
   },
   {
     id: "unity-288",
@@ -2418,7 +2418,7 @@ export const websites: Website[] = [
     url: "https://unity.com",
     description: "Moteur de jeu multiplateforme",
     category: "media",
-    logo: "https://logo.clearbit.com/unity.com"
+    logo: "https://logo.clearbit.com/unity.com",
   },
   {
     id: "unreal-engine-289",
@@ -2426,7 +2426,7 @@ export const websites: Website[] = [
     url: "https://unrealengine.com",
     description: "Moteur de jeu avancé",
     category: "media",
-    logo: "https://logo.clearbit.com/unrealengine.com"
+    logo: "https://logo.clearbit.com/unrealengine.com",
   },
   {
     id: "godot-290",
@@ -2434,7 +2434,7 @@ export const websites: Website[] = [
     url: "https://godotengine.org",
     description: "Moteur de jeu open source",
     category: "media",
-    logo: "https://logo.clearbit.com/godotengine.org"
+    logo: "https://logo.clearbit.com/godotengine.org",
   },
   {
     id: "construct-291",
@@ -2442,7 +2442,7 @@ export const websites: Website[] = [
     url: "https://construct.net",
     description: "Création de jeux 2D",
     category: "media",
-    logo: "https://logo.clearbit.com/construct.net"
+    logo: "https://logo.clearbit.com/construct.net",
   },
   {
     id: "gamemaker-292",
@@ -2450,7 +2450,7 @@ export const websites: Website[] = [
     url: "https://gamemaker.io",
     description: "Développement de jeux 2D",
     category: "media",
-    logo: "https://logo.clearbit.com/gamemaker.io"
+    logo: "https://logo.clearbit.com/gamemaker.io",
   },
   {
     id: "rpg-maker-293",
@@ -2458,7 +2458,7 @@ export const websites: Website[] = [
     url: "https://rpgmakerweb.com",
     description: "Création de jeux de rôle",
     category: "media",
-    logo: "https://logo.clearbit.com/rpgmakerweb.com"
+    logo: "https://logo.clearbit.com/rpgmakerweb.com",
   },
   {
     id: "twine-294",
@@ -2466,7 +2466,7 @@ export const websites: Website[] = [
     url: "https://twinery.org",
     description: "Fiction interactive",
     category: "media",
-    logo: "https://logo.clearbit.com/twinery.org"
+    logo: "https://logo.clearbit.com/twinery.org",
   },
   {
     id: "itch-295",
@@ -2474,7 +2474,7 @@ export const websites: Website[] = [
     url: "https://itch.io",
     description: "Distribution de jeux indés",
     category: "media",
-    logo: "https://logo.clearbit.com/itch.io"
+    logo: "https://logo.clearbit.com/itch.io",
   },
   {
     id: "steam-296",
@@ -2482,7 +2482,7 @@ export const websites: Website[] = [
     url: "https://store.steampowered.com",
     description: "Plateforme de jeux PC",
     category: "media",
-    logo: "https://logo.clearbit.com/steampowered.com"
+    logo: "https://logo.clearbit.com/steampowered.com",
   },
   {
     id: "epic-games-297",
@@ -2490,7 +2490,7 @@ export const websites: Website[] = [
     url: "https://epicgames.com/store",
     description: "Magasin de jeux Epic",
     category: "media",
-    logo: "https://logo.clearbit.com/epicgames.com"
+    logo: "https://logo.clearbit.com/epicgames.com",
   },
   {
     id: "gog-298",
@@ -2498,7 +2498,7 @@ export const websites: Website[] = [
     url: "https://gog.com",
     description: "Jeux sans DRM",
     category: "media",
-    logo: "https://logo.clearbit.com/gog.com"
+    logo: "https://logo.clearbit.com/gog.com",
   },
   {
     id: "humble-bundle-299",
@@ -2506,7 +2506,7 @@ export const websites: Website[] = [
     url: "https://humblebundle.com",
     description: "Jeux et livres à prix libre",
     category: "media",
-    logo: "https://logo.clearbit.com/humblebundle.com"
+    logo: "https://logo.clearbit.com/humblebundle.com",
   },
   {
     id: "game-jolt-300",
@@ -2514,8 +2514,8 @@ export const websites: Website[] = [
     url: "https://gamejolt.com",
     description: "Communauté de jeux indés",
     category: "media",
-    logo: "https://logo.clearbit.com/gamejolt.com"
-  }
+    logo: "https://logo.clearbit.com/gamejolt.com",
+  },
 ];
 
 // Fonction utilitaire pour obtenir les sites par catégorie

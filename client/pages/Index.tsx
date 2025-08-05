@@ -1,6 +1,15 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
-import { Search, ExternalLink, Star, Grid, List, Menu, X, ChevronRight } from "lucide-react";
+import {
+  Search,
+  ExternalLink,
+  Star,
+  Grid,
+  List,
+  Menu,
+  X,
+  ChevronRight,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Badge } from "@/components/ui/badge";
@@ -56,13 +65,15 @@ export default function Index() {
             </div>
             <div>
               <h2 className="font-bold text-gray-900 text-lg">Open-WebApp</h2>
-              <p className="text-xs text-gray-500">Plus de {websites.length} sites</p>
+              <p className="text-xs text-gray-500">
+                Plus de {websites.length} sites
+              </p>
             </div>
           </div>
           {/* Close button for mobile */}
-          <Button 
-            variant="ghost" 
-            size="sm" 
+          <Button
+            variant="ghost"
+            size="sm"
             className="lg:hidden hover:bg-gray-100"
             onClick={() => setSidebarOpen(false)}
           >
@@ -83,7 +94,7 @@ export default function Index() {
             "w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 shadow-sm",
             !selectedCategory
               ? "bg-gradient-to-r from-blue-50 to-indigo-50 text-blue-700 border-2 border-blue-200 shadow-md"
-              : "text-gray-700 hover:bg-gray-50 border border-gray-200"
+              : "text-gray-700 hover:bg-gray-50 border border-gray-200",
           )}
         >
           <div className="w-8 h-8 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-lg flex items-center justify-center text-white">
@@ -93,7 +104,10 @@ export default function Index() {
             <div className="font-semibold text-sm">Tous les sites</div>
             <div className="text-xs text-gray-500">Collection complète</div>
           </div>
-          <Badge variant="secondary" className="bg-white text-gray-700 border border-gray-300">
+          <Badge
+            variant="secondary"
+            className="bg-white text-gray-700 border border-gray-300"
+          >
             {websites.length}
           </Badge>
         </button>
@@ -113,7 +127,7 @@ export default function Index() {
               "w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 shadow-sm",
               selectedCategory === "featured"
                 ? "bg-gradient-to-r from-yellow-50 to-amber-50 text-yellow-700 border-2 border-yellow-200 shadow-md"
-                : "text-gray-700 hover:bg-gray-50 border border-gray-200"
+                : "text-gray-700 hover:bg-gray-50 border border-gray-200",
             )}
           >
             <div className="w-8 h-8 bg-gradient-to-br from-yellow-500 to-amber-600 rounded-lg flex items-center justify-center text-white">
@@ -123,7 +137,10 @@ export default function Index() {
               <div className="font-semibold text-sm">Sites Vedettes</div>
               <div className="text-xs text-gray-500">Nos recommandations</div>
             </div>
-            <Badge variant="secondary" className="bg-white text-gray-700 border border-gray-300">
+            <Badge
+              variant="secondary"
+              className="bg-white text-gray-700 border border-gray-300"
+            >
               {featuredWebsites.length}
             </Badge>
           </button>
@@ -149,7 +166,7 @@ export default function Index() {
                     "w-full flex items-center gap-3 px-4 py-3 rounded-xl transition-all duration-200 group shadow-sm",
                     selectedCategory === category.id
                       ? "bg-gradient-to-r from-blue-50 to-indigo-50 text-blue-700 border-2 border-blue-200 shadow-md"
-                      : "text-gray-700 hover:bg-gray-50 border border-gray-200 hover:border-gray-300"
+                      : "text-gray-700 hover:bg-gray-50 border border-gray-200 hover:border-gray-300",
                   )}
                 >
                   <div
@@ -157,24 +174,26 @@ export default function Index() {
                       "w-10 h-10 rounded-xl flex items-center justify-center text-sm font-medium transition-all duration-200",
                       selectedCategory === category.id
                         ? category.color + " text-white shadow-lg"
-                        : "bg-gray-100 group-hover:bg-gray-200 text-gray-600"
+                        : "bg-gray-100 group-hover:bg-gray-200 text-gray-600",
                     )}
                   >
                     {IconMap[category.icon as keyof typeof IconMap]}
                   </div>
                   <div className="flex-1 text-left min-w-0">
-                    <div className="font-semibold text-sm truncate">{category.name}</div>
+                    <div className="font-semibold text-sm truncate">
+                      {category.name}
+                    </div>
                     <div className="text-xs text-gray-500 truncate">
                       {category.description}
                     </div>
                   </div>
-                  <Badge 
-                    variant="secondary" 
+                  <Badge
+                    variant="secondary"
                     className={cn(
                       "text-xs font-medium transition-colors",
                       selectedCategory === category.id
                         ? "bg-white text-blue-700 border border-blue-300"
-                        : "bg-white text-gray-700 border border-gray-300"
+                        : "bg-white text-gray-700 border border-gray-300",
                     )}
                   >
                     {categoryWebsites.length}
@@ -196,7 +215,9 @@ export default function Index() {
             </div>
             <div className="flex items-center gap-1 text-purple-600">
               <div className="w-2 h-2 bg-purple-500 rounded-full"></div>
-              <span className="font-medium">{categories.length} catégories</span>
+              <span className="font-medium">
+                {categories.length} catégories
+              </span>
             </div>
           </div>
           <div className="text-xs text-gray-400">Mise à jour quotidienne</div>
@@ -215,8 +236,8 @@ export default function Index() {
       {/* Mobile Sidebar */}
       {sidebarOpen && (
         <div className="fixed inset-0 z-50 lg:hidden">
-          <div 
-            className="fixed inset-0 bg-black/50" 
+          <div
+            className="fixed inset-0 bg-black/50"
             onClick={() => setSidebarOpen(false)}
           />
           <div className="fixed left-0 top-0 h-full w-80 bg-white shadow-xl">
@@ -233,9 +254,9 @@ export default function Index() {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-4">
                 {/* Mobile Menu */}
-                <Button 
-                  variant="ghost" 
-                  size="sm" 
+                <Button
+                  variant="ghost"
+                  size="sm"
                   className="lg:hidden"
                   onClick={() => setSidebarOpen(true)}
                 >
@@ -248,11 +269,14 @@ export default function Index() {
                     {selectedCategory === "featured"
                       ? "Sites Vedettes"
                       : selectedCategory
-                        ? categories.find((c) => c.id === selectedCategory)?.name
+                        ? categories.find((c) => c.id === selectedCategory)
+                            ?.name
                         : "Tous les sites"}
                   </h1>
                   <p className="text-sm text-gray-500">
-                    {filteredWebsites.length} site{filteredWebsites.length > 1 ? "s" : ""} trouvé{filteredWebsites.length > 1 ? "s" : ""}
+                    {filteredWebsites.length} site
+                    {filteredWebsites.length > 1 ? "s" : ""} trouvé
+                    {filteredWebsites.length > 1 ? "s" : ""}
                   </p>
                 </div>
               </div>
@@ -301,10 +325,17 @@ export default function Index() {
             <div className="mb-8">
               <div className="flex items-center gap-4 p-6 bg-white rounded-xl border border-gray-200 shadow-sm">
                 {(() => {
-                  const category = categories.find((c) => c.id === selectedCategory);
+                  const category = categories.find(
+                    (c) => c.id === selectedCategory,
+                  );
                   return category ? (
                     <>
-                      <div className={cn("p-4 rounded-xl text-white shadow-lg", category.color)}>
+                      <div
+                        className={cn(
+                          "p-4 rounded-xl text-white shadow-lg",
+                          category.color,
+                        )}
+                      >
                         <span className="text-2xl">
                           {IconMap[category.icon as keyof typeof IconMap]}
                         </span>
@@ -315,7 +346,10 @@ export default function Index() {
                         </h2>
                         <p className="text-gray-600">{category.description}</p>
                       </div>
-                      <Badge variant="outline" className="text-sm font-medium px-3 py-1">
+                      <Badge
+                        variant="outline"
+                        className="text-sm font-medium px-3 py-1"
+                      >
                         {getWebsitesByCategory(category.id).length} sites
                       </Badge>
                     </>
@@ -336,9 +370,14 @@ export default function Index() {
                   <h2 className="text-2xl font-bold text-gray-900 mb-1">
                     Sites Vedettes
                   </h2>
-                  <p className="text-gray-600">Notre sélection des meilleurs sites web</p>
+                  <p className="text-gray-600">
+                    Notre sélection des meilleurs sites web
+                  </p>
                 </div>
-                <Badge variant="outline" className="text-sm font-medium px-3 py-1">
+                <Badge
+                  variant="outline"
+                  className="text-sm font-medium px-3 py-1"
+                >
                   {featuredWebsites.length} sites premium
                 </Badge>
               </div>
@@ -401,7 +440,9 @@ function WebsiteGrid({ websites, viewMode }: WebsiteGridProps) {
                   <p className="text-sm text-gray-600 line-clamp-2 mb-1">
                     {website.description}
                   </p>
-                  <p className="text-xs text-gray-400 truncate">{website.url}</p>
+                  <p className="text-xs text-gray-400 truncate">
+                    {website.url}
+                  </p>
                 </div>
                 <div className="flex items-center gap-3 flex-shrink-0">
                   <Badge variant="outline" className="text-xs">
